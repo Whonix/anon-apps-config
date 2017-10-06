@@ -6,7 +6,7 @@ Source: anon-apps-config
 Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
-Build-Depends: debhelper (>= 9), genmkfile
+Build-Depends: debhelper (>= 9), genmkfile, config-package-dev
 Homepage: https://github.com/Whonix/anon-apps-config
 Vcs-Browser: https://github.com/Whonix/anon-apps-config
 Vcs-Git: https://github.com/Whonix/anon-apps-config.git
@@ -17,6 +17,8 @@ Architecture: all
 Depends: anon-ws-base-files, ${misc:Depends}
 Recommends: anon-icon-pack
 Replaces: anon-ws-kde-startmenu
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
 Description: Combined package for all KDE4 and Plasma 5 modifications. 
  .
  (Most settings take effect for newly created user account onlys, and not 
@@ -25,3 +27,10 @@ Description: Combined package for all KDE4 and Plasma 5 modifications.
  Desktop Icons and KDE Start Menu Favorites
  .
  Enables Menubar in Dolphin by default
+ .
+ Enables passwordless Autologin in sddm by default.
+ Useful in virtual machines, because there it makes less
+ sense to use a password for desktop login (better used on the host).
+ If you are using full disk encryption and are the only user of that
+ machine, the password required for full disk encryption is enough and you may
+ wish not to have an unnecessary extra login screen for the desktop.

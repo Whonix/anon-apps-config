@@ -23,3 +23,5 @@ Description: Combined package for all KDE4 and Plasma 5 modifications.
  for existing user accounts.)
  .
  Desktop Icons and KDE Start Menu Favorites
+ .
+ Enables Menubar in Dolphin by default

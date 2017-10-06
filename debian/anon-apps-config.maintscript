@@ -1,0 +1,2 @@
+## From kde-dolphin-menubar-enable
+rm_conffile /etc/X11/Xsession.d/50torbrowser-default-browser

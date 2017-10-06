@@ -1,0 +1,25 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: anon-apps-config
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 9), genmkfile
+Homepage: https://github.com/Whonix/anon-apps-config
+Vcs-Browser: https://github.com/Whonix/anon-apps-config
+Vcs-Git: https://github.com/Whonix/anon-apps-config.git
+Standards-Version: 3.9.8
+
+Package: anon-apps-config
+Architecture: all
+Depends: anon-ws-base-files, ${misc:Depends}
+Recommends: anon-icon-pack
+Replaces: anon-ws-kde-startmenu
+Description: Combined package for all KDE4 and Plasma 5 modifications. 
+ .
+ (Most settings take effect for newly created user account onlys, and not 
+ for existing user accounts.)
+ .
+ Desktop Icons and KDE Start Menu Favorites

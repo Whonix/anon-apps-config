@@ -1,0 +1,78 @@
+#!/bin/bash
+
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+if [ -f /usr/lib/pre.bsh ]; then
+   source /usr/lib/pre.bsh
+fi
+
+set -e
+
+true "
+#####################################################################
+## INFO: BEGIN: $DPKG_MAINTSCRIPT_PACKAGE $DPKG_MAINTSCRIPT_NAME $@
+#####################################################################
+"
+
+create_desktop_shortcuts() {
+   if [ ! -d /home/user ]; then
+      return 0
+   fi
+
+   mkdir --parents /home/user/Desktop || true
+   chown --recursive user:user /home/user/Desktop/ || true
+
+   local files_list file_name basename_file_name
+
+   files_list="
+      /usr/share/applications/org.kde.konsole.desktop
+      /usr/share/applications/kde4/kgpg.desktop
+      /usr/share/applications/hexchat.desktop
+      /usr/share/applications/whonix-contribute.desktop
+      /usr/share/applications/janondisttorbrowser.desktop
+      /usr/share/applications/anondist-torbrowser_update.desktop
+      /usr/share/applications/whonix-documentation.desktop
+      /usr/share/applications/whonix-forum.desktop
+      /usr/share/applications/whonixcheck.desktop
+   "
+
+   for file_name in $files_list; do
+      basename_file_name="$(basename "$file_name")"
+      if [ -h "/home/user/Desktop/$basename_file_name" ]; then
+         unlink "/home/user/Desktop/$basename_file_name" || true
+      fi
+      ln -s "$file_name" /home/user/Desktop/ || true
+      chown --recursive user:user /home/user/Desktop/ || true
+   done
+}
+
+case "$1" in
+   configure)
+      true "INFO: Configuring $DPKG_MAINTSCRIPT_PACKAGE..."
+
+      create_desktop_shortcuts
+
+      true "INFO: End configuring $DPKG_MAINTSCRIPT_PACKAGE."
+
+      ;;
+
+   *)
+      ;;
+esac
+
+true "INFO: debhelper beginning here."
+
+#DEBHELPER#
+
+true "INFO: Done with debhelper."
+
+true "
+#####################################################################
+## INFO: END  : $DPKG_MAINTSCRIPT_PACKAGE $DPKG_MAINTSCRIPT_NAME $@
+#####################################################################
+"
+
+## Explicitly "exit 0", so eventually trapped errors can be ignored.
+exit 0

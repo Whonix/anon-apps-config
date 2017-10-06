@@ -37,4 +37,5 @@ Description: Combined package for all KDE4 and Plasma 5 modifications.
  .
  Deactivates KGpg's first run wizard. Uses hkp://qdigse2yzvuglcix.onion as
  default keyserver. Disables tip of the day. Disables KGpg's systray.
- 
+ .
+ Double click instead of single click in KDE

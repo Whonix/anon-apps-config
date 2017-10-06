@@ -39,3 +39,9 @@ Description: Combined package for all KDE4 and Plasma 5 modifications.
  default keyserver. Disables tip of the day. Disables KGpg's systray.
  .
  Double click instead of single click in KDE
+ .
+ In context of anonymity it might be better not to maximize the browser window
+ (https://trac.torproject.org/projects/tor/ticket/7255). 
+ To prevent users from accidentally maximizing their browser window, it is
+ better when KDE's feature to maximize windows when moved to the top is
+ disabled.

@@ -15,7 +15,7 @@ Standards-Version: 3.9.8
 Package: anon-apps-config
 Architecture: all
 Depends: anon-ws-base-files, ${misc:Depends}
-Recommends: anon-icon-pack
+Recommends: anon-icon-pack, anon-gpg-tweaks
 Replaces: anon-ws-kde-startmenu
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
@@ -34,3 +34,7 @@ Description: Combined package for all KDE4 and Plasma 5 modifications.
  If you are using full disk encryption and are the only user of that
  machine, the password required for full disk encryption is enough and you may
  wish not to have an unnecessary extra login screen for the desktop.
+ .
+ Deactivates KGpg's first run wizard. Uses hkp://qdigse2yzvuglcix.onion as
+ default keyserver. Disables tip of the day. Disables KGpg's systray.
+ 

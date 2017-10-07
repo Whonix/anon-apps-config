@@ -50,3 +50,5 @@ Description: Combined package for all KDE4 and Plasma 5 modifications.
  This package only takes effect for newly created user accounts. Not for
  existing user accounts. This package is most useful to help Linux distribution
  maintainers setting divergent defaults.
+ .
+ Disables KDE graphics effects. Disables some background processes.

@@ -1,0 +1,30 @@
+# Modified for Whonix, see COPYING for copying conditions.
+
+# TODO: Review
+
+[Module-bluedevil]
+autoload=false
+
+[Module-device_automounter]
+autoload=true
+
+[Module-dnssdwatcher]
+autoload=false
+
+[Module-freespacenotifier]
+autoload=true
+
+[Module-kwrited]
+autoload=false
+
+[Module-networkmanagement]
+autoload=false
+
+[Module-obexftpdaemon]
+autoload=false
+
+[Module-randrmonitor]
+autoload=false
+
+[Module-remotedirnotify]
+autoload=false

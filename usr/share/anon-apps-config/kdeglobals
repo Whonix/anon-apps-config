@@ -1,2 +1,7 @@
+## From kde-mouse-doubleclick
 [KDE]
 SingleClick=false
+
+## From kde-lowfat
+[KDE-Global GUI Settings]
+GraphicEffectsLevel=0

@@ -61,3 +61,5 @@ Description: Combined package for all KDE4 and Plasma 5 modifications.
  On the other hand, anonymity distributions not featuring transparent proxying
  should probably not install this package by default, because then unconfigured
  KDE applications should by default not be able to connect.
+ .
+ Sets Unlimited Scrollback in Konsole

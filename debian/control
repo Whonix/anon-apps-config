@@ -14,7 +14,7 @@ Standards-Version: 3.9.8
 
 Package: anon-apps-config
 Architecture: all
-Depends: anon-ws-base-files, ${misc:Depends}
+Depends: anon-ws-base-files, kde-baseapps-bin, ${misc:Depends}
 Recommends: anon-icon-pack, anon-gpg-tweaks
 Replaces: anon-ws-kde-startmenu
 Provides: ${diverted-files}
@@ -50,3 +50,14 @@ Description: Combined package for all KDE4 and Plasma 5 modifications.
  maintainers setting divergent defaults.
  .
  Disables KDE graphics effects. Disables some background processes.
+ .
+ Stream Isolation (proxy) settings for KDE apps for Anonymity Distributions
+ Configures global proxy settings, which acts as a fallback if no other proxy
+ settings are set, for KDE applications to socks 10.152.152.10:9122.
+ Otherwise unconfigured KDE applications would use no proxy settings
+ (Transparent Proxying) if the anonymity distribution features a transparent
+ proxy.
+ Useful to improve stream isolation.
+ On the other hand, anonymity distributions not featuring transparent proxying
+ should probably not install this package by default, because then unconfigured
+ KDE applications should by default not be able to connect.

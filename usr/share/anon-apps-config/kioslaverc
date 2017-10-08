@@ -1,0 +1,6 @@
+## From anon-kde-streamiso
+[Proxy Settings]
+NoProxyFor=127.0.0.1
+ProxyType=1
+ReversedException=false
+socksProxy=http://10.152.152.10 9122

@@ -21,10 +21,10 @@ Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Combined package for all KDE4 and Plasma 5 modifications. 
  .
- (Most settings take effect for newly created user account onlys, and not 
- for existing user accounts.)
+ Most settings take effect for newly created user account onlys, and not 
+ for existing user accounts.
  .
- Enables Menubar in Dolphin by default
+ Enables Menubar in Dolphin by default.
  .
  Enables passwordless Autologin in sddm by default.
  Useful in virtual machines, because there it makes less
@@ -36,7 +36,7 @@ Description: Combined package for all KDE4 and Plasma 5 modifications.
  Deactivates KGpg's first run wizard. Uses hkp://qdigse2yzvuglcix.onion as
  default keyserver. Disables tip of the day. Disables KGpg's systray.
  .
- Double click instead of single click in KDE
+ Double click instead of single click in KDE.
  .
  In context of anonymity it might be better not to maximize the browser window
  (https://trac.torproject.org/projects/tor/ticket/7255). 
@@ -62,4 +62,7 @@ Description: Combined package for all KDE4 and Plasma 5 modifications.
  should probably not install this package by default, because then unconfigured
  KDE applications should by default not be able to connect.
  .
- Sets Unlimited Scrollback in Konsole
+ Sets Unlimited Scrollback in Konsole.
+ .
+ Disables klipper clipboard history.
+ 

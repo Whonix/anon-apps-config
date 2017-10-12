@@ -1,3 +1,4 @@
+## From kde-unlim-scrollback
 [General]
 Name=Shell
 Parent=FALLBACK/

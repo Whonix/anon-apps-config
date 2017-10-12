@@ -7,6 +7,7 @@ if [ -z "$XDG_CONFIG_DIRS" ]; then
 fi
 export XDG_CONFIG_DIRS=/usr/share/anon-apps-config/:$XDG_CONFIG_DIRS
 
+## From kde-unlim-scrollback
 #if [ -z "$XDG_DATA_HOME" ]; then
 #   XDG_DATA_HOME=$HOME/.local/share
 #fi

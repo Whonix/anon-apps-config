@@ -1,0 +1,83 @@
+commit 9854d9399c86603a41c44df8f4c1777e35e4c3c5
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Mon Oct 16 12:53:54 2017 -0500
+
+    dummy changelog
+
+commit a0cf484d3a2a0e624fa6b3ee32a7b83bf2cc5688
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Thu Oct 12 17:58:07 2017 -0500
+
+    Migrated kde-privacy
+
+commit c9dbfa99a8ffb7ed4887a9d2054410ef27d1d978
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Thu Oct 12 17:53:37 2017 -0500
+
+    minor comments
+
+commit e1b6c20a67554176741fd2aab0ec6aed6ed6cac2
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Sat Oct 7 21:22:31 2017 -0500
+
+    migrated kde-unlim-scrollback; fixed xdg_config_dir
+
+commit b02d8fe6bba4d7f9c61cfb113438e326bc66295c
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Sat Oct 7 21:15:35 2017 -0500
+
+    migrated anon-kde-streamiso
+
+commit 75ff8d05cd448afa70483a55ed957ed9d51700a1
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Sat Oct 7 21:11:16 2017 -0500
+
+    Removed whonix-ws-desktop-shortcuts
+
+commit cadcaa34fcdeeace9265f47171fed20a3a6d6dc8
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Fri Oct 6 20:30:55 2017 -0500
+
+    Migrated kde-lowfat
+
+commit 974e558483db4d3063488d4133dbacdff7a241d9
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Fri Oct 6 20:24:44 2017 -0500
+
+    Migrated kde-sounds-off
+
+commit 5dc29d5d2a4706c2750764ce9104dde30d9f45a1
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Fri Oct 6 18:14:35 2017 -0500
+
+    Migrated kde-no-move-max-win
+
+commit 2e0dfc6691c17aeea51b77a0f845c3d1e3894767
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Fri Oct 6 18:10:10 2017 -0500
+
+    Merged kde-mouse-doubleclick
+
+commit b27c286c8c8d87912ca033edc0a420104c7682d2
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Fri Oct 6 17:34:20 2017 -0500
+
+    Added kde4rc; Migrated Kgpgrc; Fixed /etc/etc
+
+commit 165f4e0d71a41bef5e999f6b65faf7f2d3235c1c
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Fri Oct 6 16:49:18 2017 -0500
+
+    Migrated kde-kdm-autologin
+
+commit ae7003e4d81aa309ae41aaaa711a8b119795d378
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Fri Oct 6 16:28:06 2017 -0500
+
+    Migrated kde-dolphin-menubar-enable
+
+commit 5900b08cd311426d18ba7a6ee929c12a2e6b27ce
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Fri Oct 6 16:15:56 2017 -0500
+
+    Inital Commit; Migrated whonix-ws-desktop-shortcuts

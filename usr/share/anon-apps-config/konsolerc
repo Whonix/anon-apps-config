@@ -1,9 +1,0 @@
-## From kde-unlim-scrollback
-[Desktop Entry]
-DefaultProfile=Shell.profile
-
-[Favorite Profiles]
-Favorites=/home/user/.local/share/konsole/Shell.profile
-
-[MainWindow]
-ToolBarsMovable=Disabled

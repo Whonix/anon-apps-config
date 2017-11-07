@@ -19,9 +19,8 @@ Recommends: anon-icon-pack, anon-gpg-tweaks
 Replaces: anon-ws-kde-startmenu
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
-Description: Combined package for all KDE4 and Plasma 5 modifications. 
- .
- Most settings take effect for newly created user account onlys, and not 
+Description: Combined package for all KDE4 and Plasma 5 modifications
+ Most settings take effect for newly created user account onlys, and not
  for existing user accounts.
  .
  Enables Menubar in Dolphin by default.
@@ -38,16 +37,14 @@ Description: Combined package for all KDE4 and Plasma 5 modifications.
  .
  Double click instead of single click in KDE.
  .
+ Deactivates maximize windows when moved to the top.
  In context of anonymity it might be better not to maximize the browser window
- (https://trac.torproject.org/projects/tor/ticket/7255). 
+ (https://trac.torproject.org/projects/tor/ticket/7255).
  To prevent users from accidentally maximizing their browser window, it is
  better when KDE's feature to maximize windows when moved to the top is
  disabled.
  .
- Deactivates KDE's system sounds
- This package only takes effect for newly created user accounts. Not for
- existing user accounts. This package is most useful to help Linux distribution
- maintainers setting divergent defaults.
+ Deactivates KDE's system sounds.
  .
  Disables KDE graphics effects. Disables some background processes.
  .
@@ -65,4 +62,3 @@ Description: Combined package for all KDE4 and Plasma 5 modifications.
  Sets Unlimited Scrollback in Konsole.
  .
  Disables klipper clipboard history.
- 

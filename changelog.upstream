@@ -1,3 +1,23 @@
+commit 9d1cd998bb995c67fa54296cf9649276872ba0ec
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Nov 7 11:15:00 2017 +0000
+
+    package description
+
+commit 53d14df7439ee22a942c3aef0ff2703341bb10d9
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Wed Oct 25 19:43:51 2017 -0500
+
+    migrated working kde-unlimited-scrollback
+
+commit 822891bbb07fed82d7ff16e251cc2af189a046a2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 17 12:50:52 2017 +0000
+
+    fixed debian/changelog
+    
+    added changelog.upstream
+
 commit 9854d9399c86603a41c44df8f4c1777e35e4c3c5
 Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
 Date:   Mon Oct 16 12:53:54 2017 -0500

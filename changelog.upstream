@@ -1,3 +1,15 @@
+commit 549ca02caae16a27c14e89cbada14e90c90d8f01
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 15 19:30:24 2017 +0000
+
+    fix, make debian/rules executable
+
+commit eb93380483ce9890963e11ffd7539cb63c94ef14
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Nov 21 22:39:43 2017 +0000
+
+    bumped changelog version
+
 commit 22316b65bb10533029e71ff83535c8f74373e56e
 Merge: 30a9a26 0a7e0e3
 Author: Patrick Schleizer <adrelanos@riseup.net>

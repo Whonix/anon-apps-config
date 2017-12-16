@@ -1,3 +1,21 @@
+commit 2915e5956184d021421a830ecf8cf96a84c61f02
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 16 20:58:23 2017 +0100
+
+    fix
+
+commit 63904c2b3c5b41fa45d5b51b66d3e98e7109eeb3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 16 19:26:00 2017 +0100
+
+    Replaces: kde-kdm-autologin, anon-gw-kde-startmenu, anon-ws-kde-startmenu
+
+commit eb2560b21fe94ba8b01efe6482356fc9acc8048a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Dec 15 19:30:55 2017 +0000
+
+    bumped changelog version
+
 commit 549ca02caae16a27c14e89cbada14e90c90d8f01
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Dec 15 19:30:24 2017 +0000

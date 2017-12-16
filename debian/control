@@ -14,9 +14,9 @@ Standards-Version: 3.9.8
 
 Package: anon-apps-config
 Architecture: all
-Depends: anon-ws-base-files, kde-baseapps-bin, ${misc:Depends}
+Depends: ${misc:Depends}
 Recommends: anon-icon-pack, anon-gpg-tweaks
-Replaces: kde-kdm-autologin, anon-gw-kde-startmenu, anon-ws-kde-startmenu
+Replaces: kde-kdm-autologin
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Combined package for all KDE4 and Plasma 5 modifications

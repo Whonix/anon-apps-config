@@ -1,3 +1,50 @@
+# Combined package for all KDE4 and Plasma 5 modifications #
+
+Most settings take effect for newly created user account onlys, and not
+for existing user accounts.
+
+Enables Menubar in Dolphin by default.
+
+Enables passwordless Autologin in sddm by default.
+Useful in virtual machines, because there it makes less
+sense to use a password for desktop login (better used on the host).
+If you are using full disk encryption and are the only user of that
+machine, the password required for full disk encryption is enough and you may
+wish not to have an unnecessary extra login screen for the desktop.
+
+Deactivates KGpg's first run wizard. Uses hkp://qdigse2yzvuglcix.onion as
+default keyserver. Disables tip of the day. Disables KGpg's systray.
+
+Double click instead of single click in KDE.
+
+Deactivates maximize windows when moved to the top.
+In context of anonymity it might be better not to maximize the browser window
+(https://trac.torproject.org/projects/tor/ticket/7255).
+To prevent users from accidentally maximizing their browser window, it is
+better when KDE's feature to maximize windows when moved to the top is
+disabled.
+
+Deactivates KDE's system sounds.
+
+Disables KDE graphics effects. Disables some background processes.
+
+Stream Isolation (proxy) settings for KDE apps for Anonymity Distributions
+Configures global proxy settings, which acts as a fallback if no other proxy
+settings are set, for KDE applications to socks 10.152.152.10:9122.
+Otherwise unconfigured KDE applications would use no proxy settings
+(Transparent Proxying) if the anonymity distribution features a transparent
+proxy.
+Useful to improve stream isolation.
+On the other hand, anonymity distributions not featuring transparent proxying
+should probably not install this package by default, because then unconfigured
+KDE applications should by default not be able to connect.
+
+Sets Unlimited Scrollback in Konsole.
+
+Disables klipper clipboard history.
+
+(This package description has been [automatically](https://github.com/Whonix/whonix-developer-meta-files/blob/master/debug-steps/packaging-helper-script) extracted and mirrored from `debian/control`.)
+
 # Generic Readme #
 ## Readme Version ##
 

@@ -1,3 +1,17 @@
+commit 96d6e1e741cdf8456ea1ca1b07ce014289aeb7bf
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jan 2 15:00:13 2018 +0000
+
+    disable systemd-resolved
+    
+    https://phabricator.whonix.org/T762
+
+commit 6c462ab17162b4b4a68a11d515ab7b939cffbfc1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Dec 21 20:27:47 2017 +0000
+
+    bumped changelog version
+
 commit 9823393e04627b125e23903f1046e99a2b06250a
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Dec 21 20:22:54 2017 +0000

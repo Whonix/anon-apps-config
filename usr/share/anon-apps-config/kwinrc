@@ -6,3 +6,14 @@ ElectricBorderMaximize=false
 
 [Compositing]
 Enabled=false
+
+[Plugins]
+blurEnabled=false
+contrastEnabled=false
+desktopgridEnabled=false
+minimizeanimationEnabled=false
+presentwindowsEnabled=false
+screenedgeEnabled=false
+slideEnabled=false
+slidingpopupsEnabled=false
+zoomEnabled=false

@@ -1,4 +1,5 @@
 ## From kde-no-move-max-win
 [Windows]
 ## KDE -> System Settings -> Screen Edges -> Uncheck: Maximize Windows by dragging them to the top of the screen
+## Test in Whonix 14: passed
 ElectricBorderMaximize=false

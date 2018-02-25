@@ -1,3 +1,31 @@
+commit ec307c845958a0785c838c5e9b80a6fd2348089d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 23 16:04:40 2018 +0000
+
+    disable kde desktop effects
+
+commit 6f509ec0eb3b968f258c54d57ed2afab5e3a5030
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 23 14:56:48 2018 +0000
+
+    disable Compositing to improve performance
+    
+    as suggested by @HulaHoopWhonix
+    
+    https://forums.whonix.org/t/whonix-14-increase-ram-to-1024-mb
+
+commit f6c1ae52cd5b5169da04b6f2bdd069ede3fe9f57
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 23 15:49:00 2018 +0100
+
+    comment
+
+commit b61f7d7a2f70d55e63f1cce0600bb97e2e1975f8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Feb 1 14:37:07 2018 +0000
+
+    bumped changelog version
+
 commit 09e1e676c0868df88e21049966b2c85d0ab89080
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Jan 29 15:49:55 2018 +0000

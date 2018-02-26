@@ -1,3 +1,25 @@
+commit 0c067ec360ffd43d7de5d176c5ebf05c83101c6b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Feb 26 21:34:51 2018 +0000
+
+    remove no longer needed /etc/X11/Xsession.d/ config files
+    
+    to clean up environment variables
+    
+    this also prevents crashes due to long environment variable bug
+
+commit 3c395746ae515f2206ae4308691ecfea5378b6c9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Feb 26 21:10:45 2018 +0000
+
+    add new line at the end
+
+commit 3b9e7f21489d215815043723ff437c771150bd54
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Feb 25 23:27:02 2018 +0100
+
+    bumped changelog version
+
 commit ec307c845958a0785c838c5e9b80a6fd2348089d
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 23 16:04:40 2018 +0000

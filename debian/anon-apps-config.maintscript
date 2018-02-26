@@ -1,2 +1,13 @@
 ## From kde-dolphin-menubar-enable
 rm_conffile /etc/X11/Xsession.d/50torbrowser-default-browser
+
+rm_conffile /etc/X11/Xsession.d/50anon-kde-streamiso
+rm_conffile /etc/X11/Xsession.d/50kde-common-resolution
+rm_conffile /etc/X11/Xsession.d/50kde-dolphin-menubar-enable
+rm_conffile /etc/X11/Xsession.d/50kde-kgpg-tweaks
+rm_conffile /etc/X11/Xsession.d/50kde-konsole-unlim-scrollback
+rm_conffile /etc/X11/Xsession.d/50kde-lowfat
+rm_conffile /etc/X11/Xsession.d/50kde-mouse-doubleclick
+rm_conffile /etc/X11/Xsession.d/50kde-no-move-max-win
+rm_conffile /etc/X11/Xsession.d/50kde-privacy
+rm_conffile /etc/X11/Xsession.d/50kde-sounds-off

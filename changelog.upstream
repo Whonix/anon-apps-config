@@ -1,3 +1,17 @@
+commit 740be6ed80286fc7858df34bc5ebe2dd216323af
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Feb 26 23:41:54 2018 +0000
+
+    remove unneeded disfunctional debian/anon-apps-config.maintscript
+    
+    Doesn’t actually work (dpkg-mainscript-helper refuses) since the conf files to be deleted were owned by the previously installed packages, not anon-apps-config.
+
+commit cad3cd8c69b41986b3c498a98b6b030e302fecbf
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Feb 26 22:25:29 2018 +0000
+
+    bumped changelog version
+
 commit 0c067ec360ffd43d7de5d176c5ebf05c83101c6b
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Feb 26 21:34:51 2018 +0000

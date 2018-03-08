@@ -1,3 +1,25 @@
+commit 40765790e57c17afb1069dd4fba818404bb22b27
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Mar 8 14:50:39 2018 +0000
+
+    merge pkg-manager-longer-timeouts into anon-apps-config
+
+commit 16624c98c45a383d92a636a65e2bbfbb2b86f1f3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Mar 8 14:46:44 2018 +0000
+
+    merge pkg-manager-no-autoupdate into anon-apps-config
+    
+    to have fewer XDG environment variables entries
+    
+    to avoid segfault due to environment variables bug
+
+commit 357451eca33555e4652807dc52962040e62cf80c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Feb 26 23:45:43 2018 +0000
+
+    bumped changelog version
+
 commit 740be6ed80286fc7858df34bc5ebe2dd216323af
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Feb 26 23:41:54 2018 +0000

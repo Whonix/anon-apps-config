@@ -15,7 +15,7 @@ Package: anon-apps-config
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: anon-icon-pack, anon-gpg-tweaks
-Replaces: kde-kdm-autologin
+Replaces: kde-kdm-autologin, kde-apper-no-autoupdate, pkg-manager-no-autoupdate
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Combined package for all KDE4 and Plasma 5 modifications
@@ -61,3 +61,13 @@ Description: Combined package for all KDE4 and Plasma 5 modifications
  Sets Unlimited Scrollback in Konsole.
  .
  Disables klipper clipboard history.
+ .
+ Deactivates automatic updates for Package Manager APT and Apper
+ Useful in context of networks with limited traffic quota, slow networks and
+ anonymity distributions.
+ In latter case, the default automatic updates interval would be too
+ predictable (expectable amount of traffic every X), thus eventually be
+ vulnerable for traffic fingerprinting.
+ Disabling Apper automatic updates only takes effect for newly created user
+ accounts. Not for existing user accounts. This is most useful to help Linux
+ distribution maintainers setting divergent defaults.

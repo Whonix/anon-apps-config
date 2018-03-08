@@ -15,7 +15,8 @@ Package: anon-apps-config
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: anon-icon-pack, anon-gpg-tweaks
-Replaces: kde-kdm-autologin, kde-apper-no-autoupdate, pkg-manager-no-autoupdate
+Replaces: kde-kdm-autologin, kde-apper-no-autoupdate, pkg-manager-no-autoupdate,
+ pkg-manager-longer-timeouts
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: Combined package for all KDE4 and Plasma 5 modifications
@@ -71,3 +72,10 @@ Description: Combined package for all KDE4 and Plasma 5 modifications
  Disabling Apper automatic updates only takes effect for newly created user
  accounts. Not for existing user accounts. This is most useful to help Linux
  distribution maintainers setting divergent defaults.
+ .
+ Longer Timeouts for Package Manager APT
+ Raising timeout and retries using configuration snippet. Useful in context of
+ slow networks and anonymity distributions.
+ .
+ Ships a configuration file /etc/apt/apt.conf.d/90longer-timeouts to configure
+ apt-get.

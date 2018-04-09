@@ -1,0 +1,7 @@
+###
+###  vlc config file
+###
+
+# Issue : https://phabricator.whonix.org/T736
+# Do no ask for network policy at start (boolean)
+qt-privacy-ask=0

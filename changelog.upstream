@@ -1,3 +1,39 @@
+commit 1174a69194a8d18bd3de1b8a1f6c19d429f69fb4
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed May 9 09:42:48 2018 +0000
+
+    disable systemd resolved FallbackDNS (which defaults to Google)
+    
+    https://phabricator.whonix.org/T793
+
+commit 58349183e7768af31d39a106e1dde2e347716efd
+Merge: d9d281f b3dfced
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 12 14:41:48 2018 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit b3dfcedf40502807e546f0335e7b7aef723c589d
+Merge: d9d281f ff0b1f5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Apr 11 12:44:26 2018 +0200
+
+    Merge pull request #1 from Tibo-le-canard/master
+    
+    VLC disable metadata
+
+commit ff0b1f549a0d82bd3132dfb1db1e65ca011570b1
+Author: user <thibault.marboud@gmail.com>
+Date:   Mon Apr 9 06:59:16 2018 +0200
+
+    VLC disable metadata
+
+commit d9d281fecaca20ffa97d7e4f5497efb944c1bfa4
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Mar 8 14:55:30 2018 +0000
+
+    bumped changelog version
+
 commit 40765790e57c17afb1069dd4fba818404bb22b27
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Mar 8 14:50:39 2018 +0000

@@ -1,3 +1,31 @@
+commit 5178a86fbbb15527e48506c49282d5f9e3ed14a0
+Merge: 27325fb 69a1814
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jun 13 07:08:35 2018 +0000
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 69a18149f7f930c1d893e1059011850766f58d43
+Merge: 27325fb d3659fe
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed May 16 17:23:14 2018 +0200
+
+    Merge pull request #2 from HulaHoopWhonix/patch-1
+    
+    Disable 'Obey DRM limitations' in Okular
+
+commit d3659fe3de243a799a76bee147f393e06426adbe
+Author: HulaHoopWhonix <bancfc@openmailbox.org>
+Date:   Wed May 16 11:52:38 2018 +0000
+
+    Disable 'Obey DRM limitations' in Okular
+
+commit 27325fb018eb561642557b0f74070b92722dfd0a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed May 9 12:15:52 2018 +0000
+
+    bumped changelog version
+
 commit 1174a69194a8d18bd3de1b8a1f6c19d429f69fb4
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed May 9 09:42:48 2018 +0000

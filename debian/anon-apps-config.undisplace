@@ -2,4 +2,5 @@
 ## See the file COPYING for copying conditions.
 
 ## From kde-kdm-autologin
+
 /etc/kde4/kdm/kdmrc.anondist

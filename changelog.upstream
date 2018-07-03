@@ -1,3 +1,73 @@
+commit 36e55488bc7a8b39d7b7f6183847f942ee9cee42
+Merge: 55901b6 56b5117
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 1 13:39:05 2018 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 56b51172e5c5ae595ffee8e89d1977d2d45819e9
+Merge: 55901b6 295b070
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 1 13:36:56 2018 +0800
+
+    Merge pull request #4 from HulaHoopWhonix/patch-3
+    
+    Comment video output
+
+commit 295b0702221cb4bc2116379fe0861cc6367bfa22
+Author: HulaHoopWhonix <bancfc@openmailbox.org>
+Date:   Sat Jun 30 21:53:43 2018 +0000
+
+    Comment video output
+
+commit 55901b6e45fe6dc818c03e3264bcfd4f3e08325d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 24 06:29:16 2018 +0000
+
+    hide gajim plugin installer plugin for better security
+    
+    https://phabricator.whonix.org/T694
+    
+    https://forums.whonix.org/t/gajim-messenger
+    
+    https://www.whonix.org/wiki/Dev/Gajim
+
+commit 916bec8ab6294ed1a908ce46513fdbbd63958803
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jun 24 06:28:33 2018 +0000
+
+    fix config-package-dev usage
+
+commit 40a1972923237a9fa2b3ec2b250fecd564a6aaad
+Merge: 75c68ec c248a21
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jun 23 15:12:07 2018 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit c248a21112fa8d888a61893e782c6e7c45dfbf02
+Merge: 75c68ec 4a882d8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jun 23 15:09:59 2018 +0800
+
+    Merge pull request #3 from HulaHoopWhonix/patch-2
+    
+    Set video output to X11
+
+commit 4a882d8b5573839d0e8bbad1a06da1d448cddba6
+Author: HulaHoopWhonix <bancfc@openmailbox.org>
+Date:   Fri Jun 22 14:44:07 2018 +0000
+
+    Set video output to X11
+    
+    VLC should render out of the box without any manual workarounds.
+
+commit 75c68ecba95de100d3767672d202451db625ee89
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jun 13 07:32:09 2018 +0000
+
+    bumped changelog version
+
 commit 5178a86fbbb15527e48506c49282d5f9e3ed14a0
 Merge: 27325fb 69a1814
 Author: Patrick Schleizer <adrelanos@riseup.net>

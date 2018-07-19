@@ -9,6 +9,10 @@ gpg_config_path[$e]=$HOME/.gnupg/gpg.conf
 [General Options]
 First run=false
 
+## Pre-configured GPG v2 as default.
+[GPG Settings]
+gpg_bin_path[$e]=gpg2
+
 ## Added hkp://qdigse2yzvuglcix.onion to the default list.
 ## Same as in:
 ## -- https://raw.github.com/ioerror/torbirdy/master/gpg.conf

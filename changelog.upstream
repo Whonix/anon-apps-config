@@ -1,3 +1,37 @@
+commit c3cc3c3eb186619bd52d0608b05c8074a0ffaa4a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jul 19 21:31:14 2018 +0800
+
+    fix
+
+commit 3f831caff59e21a1459cf139c5f5341120247ff9
+Merge: 8f114fc 459c50d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jul 19 21:29:59 2018 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 459c50d43b49eecc308d7be77bf065887728007b
+Merge: 8f114fc 63d5b09
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jul 19 21:27:24 2018 +0800
+
+    Merge pull request #5 from HulaHoopWhonix/patch-4
+    
+    Pre-configured GPG v2 as default
+
+commit 63d5b09a79b13bcd7849fe0784abda30c76a8aec
+Author: HulaHoopWhonix <bancfc@openmailbox.org>
+Date:   Thu Jul 19 11:39:06 2018 +0000
+
+    Pre-configured GPG v2 as default
+
+commit 8f114fce0123251266c342499b12c53ece0e1acb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Jul 3 05:35:59 2018 +0000
+
+    bumped changelog version
+
 commit 36e55488bc7a8b39d7b7f6183847f942ee9cee42
 Merge: 55901b6 56b5117
 Author: Patrick Schleizer <adrelanos@riseup.net>

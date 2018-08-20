@@ -19,7 +19,7 @@ Replaces: kde-kdm-autologin, kde-apper-no-autoupdate, pkg-manager-no-autoupdate,
  pkg-manager-longer-timeouts
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
-Description: Combined package for all KDE4 and Plasma 5 modifications
+Description: anonymity, privacy and security settings pre-configuration
  Most settings take effect for newly created user account onlys, and not
  for existing user accounts.
  .

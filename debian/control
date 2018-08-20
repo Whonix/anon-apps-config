@@ -80,6 +80,19 @@ Description: Combined package for all KDE4 and Plasma 5 modifications
  Ships a configuration file /etc/apt/apt.conf.d/90longer-timeouts to configure
  apt-get.
  .
+ Ships a configuration file etc/skel/.config/vlc/vlcrc to configure VLC to not
+ ask for network policy at start and sets vout=xcb_x11 to enable VM
+ compatibility out-of-the-box.
+ .
+ Disabled gajim update manager by default for better security since it does not
+ verify software signatures by hiding file
+ /usr/share/gajim/plugins/plugin_installer/__init__.py using
+ 'config-package-dev' 'hide'.
+ .
+ Disables systemd-resolved during boot unless file /etc/dns-enable exists.
+ .
+ Disables systemd-resolved fallback DNS (which by default is set to Google).
+ .
  Due to technical limitations some settings only take effect for applications
  being started for the very first time, i.e. when the user config of that
  application in the user's home folder does not exist yet. Works best for new

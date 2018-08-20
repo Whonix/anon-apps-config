@@ -1,4 +1,4 @@
-# Combined package for all KDE4 and Plasma 5 modifications #
+# anonymity, privacy and security settings pre-configuration #
 
 Most settings take effect for newly created user account onlys, and not
 for existing user accounts.
@@ -43,54 +43,55 @@ Sets Unlimited Scrollback in Konsole.
 
 Disables klipper clipboard history.
 
-(This package description has been [automatically](https://github.com/Whonix/whonix-developer-meta-files/blob/master/debug-steps/packaging-helper-script) extracted and mirrored from `debian/control`.)
+Deactivates automatic updates for Package Manager APT and Apper
+Useful in context of networks with limited traffic quota, slow networks and
+anonymity distributions.
+In latter case, the default automatic updates interval would be too
+predictable (expectable amount of traffic every X), thus eventually be
+vulnerable for traffic fingerprinting.
+Disabling Apper automatic updates only takes effect for newly created user
+accounts. Not for existing user accounts. This is most useful to help Linux
+distribution maintainers setting divergent defaults.
 
-# Generic Readme #
-## Readme Version ##
+Longer Timeouts for Package Manager APT
+Raising timeout and retries using configuration snippet. Useful in context of
+slow networks and anonymity distributions.
 
-[Generic Readme](https://github.com/Whonix/whonix-developer-meta-files/blob/master/README_generic.md) Version 0.3
+Ships a configuration file /etc/apt/apt.conf.d/90longer-timeouts to configure
+apt-get.
 
-## Cooperating Anonymity Distributions ##
+Ships a configuration file /etc/skel/.config/vlc/vlcrc to configure VLC to not
+ask for network policy at start and sets vout=xcb_x11 to enable VM
+compatibility out-of-the-box.
 
-[Generic Readme](https://github.com/Whonix/whonix-developer-meta-files/blob/master/README_generic.md) beings here. Have a look into the `man` sub folder (if available).
+Disabled gajim update manager by default for better security since it does not
+verify software signatures by hiding file
+/usr/share/gajim/plugins/plugin_installer/__init__.py using
+'config-package-dev' 'hide'.
 
-The functionality of this package was once exclusively available in the [Whonix](https://www.whonix.org) ([github](https://github.com/Whonix/Whonix)) anonymity distribution.
+Disables systemd-resolved during boot unless file /etc/dns-enable exists.
 
-Because multiple projects and individuals stated interest in various of Whonix's functionality (examples: [Qubes OS](http://qubes-os.org/trac) ([discussion](https://groups.google.com/forum/#!topic/qubes-devel/jxr89--oGs0)); [piratelinux](https://github.com/piratelinux) ([discussion](https://github.com/adrelanos/VPN-Firewall/commit/6147f0e606377f5a801e98daf22e24ba2c750a21#commitcomment-6360713))), it's best to share as much source code as possible, it's best to share certain characteristics [(such as /etc/hostname etc.) among all anonymity distributions](https://mailman.boum.org/pipermail/tails-dev/2013-January/002457.html)) Whonix has been split into [multiple separate packages](https://github.com/Whonix).
+Disables systemd-resolved fallback DNS (which by default is set to Google).
 
-## Generic Packaging ##
+Due to technical limitations some settings only take effect for applications
+being started for the very first time, i.e. when the user config of that
+application in the user's home folder does not exist yet. Works best for new
+user accounts.
 
-Files in `etc/...` in root source folder will be installed to `/etc/...`, files in `usr/...` will be installed to `/usr/...` and so forth. This should make renaming, moving files around, packaging, etc. very simple. Packaging of most packages looks very similar.
+This package is most useful to help Linux distribution maintainers setting
+divergent defaults.
+## How to install `anon-apps-config` using apt-get ##
 
-## How to use outside of Debian or derivatives ##
-
-Although probably due to generic packaging not very hard. Still, this requires developer skills. [Ports](https://en.wikipedia.org/wiki/Porting) welcome!
-
-## How to Build deb Package ##
-
-See comments below and [instructions](https://www.whonix.org/wiki/Dev/Build_Documentation/apparmor-profile-torbrowser).
-
-* Replace `apparmor-profile-torbrowser` with the actual name of this package (equals the root source folder name of this package after you git cloned it).
-* You only need [config-package-dev](https://packages.debian.org/wheezy/config-package-dev), when it is listed in the `Build-Depends:` field in `debian/control`.
-* Many packages do not have signed git tags yet. You may request them if desired.
-* We might later use a [documentation template](https://www.whonix.org/wiki/Template:Build_Documentation_Build_Package).
-
-## How to install in Debian using apt-get ##
-
-Binary packages are available in Whonix's APT repository. By no means you are required to use the binary version of this package. This might be interesting for users of Debian and derivatives. **Note, that usage of this package outside of Whonix is untested and there is no maintainer that supports this use case.**
-
-1\. Get [Whonix's Signing Key](https://www.whonix.org/wiki/Whonix_Signing_Key).
-
-2\. Add Whonix's Signing Key to apt-key.
+1\. Add [Whonix's Signing Key](https://www.whonix.org/wiki/Whonix_Signing_Key).
 
 ```
-gpg --export 916B8D99C38EAF5E8ADC7A2A8D66066A2EEACCDA | sudo apt-key add -
+sudo apt-key --keyring /etc/apt/trusted.gpg.d/whonix.gpg adv --keyserver hkp://ipv4.pool.sks-keyservers.net:80 --recv-keys 916B8D99C38EAF5E8ADC7A2A8D66066A2EEACCDA
 ```
 
 3\. Add Whonix's APT repository.
 
 ```
-echo "deb http://deb.whonix.org stretch main" > /etc/apt/sources.list.d/whonix.list
+echo "deb http://deb.whonix.org stretch main" | sudo tee /etc/apt/sources.list.d/whonix.list
 ```
 
 4\. Update your package lists.
@@ -99,23 +100,24 @@ echo "deb http://deb.whonix.org stretch main" > /etc/apt/sources.list.d/whonix.l
 sudo apt-get update
 ```
 
-5\. Install this package. Replace `package-name` with the actual name of this package.
+5\. Install `anon-apps-config`.
 
 ```
-sudo apt-get install package-name
+sudo apt-get install anon-apps-config
 ```
 
-## Cooperation ##
+## How to Build deb Package ##
 
-Most welcome. [Ports](https://en.wikipedia.org/wiki/Porting), distribution maintainers, developers, patches, forks, testers, comments, etc. all welcome.
+See comments below and [instructions](https://www.whonix.org/wiki/Dev/Build_Documentation/apparmor-profile-torbrowser).
+
+* Replace `apparmor-profile-torbrowser` with the actual name of this package with `anon-apps-config`.
+* We might later use a [documentation template](https://www.whonix.org/wiki/Template:Build_Documentation_Build_Package).
 
 ## Contact ##
 
-* Professional Support: https://www.whonix.org/wiki/Support#Professional_Support
-* Free Forum Support: https://www.whonix.org/forum
-* Github Issues
-* twitter: https://twitter.com/Whonix
+* [Free Forum Support](https://forums.whonix.org)
+* [Professional Support](https://www.whonix.org/wiki/Professional_Support)
 
-## Donate ##
+## Payments ##
 
-* [Donate](https://www.whonix.org/wiki/Donate)
+`anon-apps-config` requires [payments](https://www.whonix.org/wiki/Payments) to stay alive!

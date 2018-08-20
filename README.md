@@ -108,10 +108,7 @@ sudo apt-get install anon-apps-config
 
 ## How to Build deb Package ##
 
-See comments below and [instructions](https://www.whonix.org/wiki/Dev/Build_Documentation/apparmor-profile-torbrowser).
-
-* Replace `apparmor-profile-torbrowser` with the actual name of this package with `anon-apps-config`.
-* We might later use a [documentation template](https://www.whonix.org/wiki/Template:Build_Documentation_Build_Package).
+Replace `apparmor-profile-torbrowser` with the actual name of this package with `anon-apps-config` and see [instructions](https://www.whonix.org/wiki/Dev/Build_Documentation/apparmor-profile-torbrowser).
 
 ## Contact ##
 

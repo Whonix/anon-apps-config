@@ -1,3 +1,22 @@
+commit 008d206ec20c74e0d03926b939522b7036b8693b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Aug 29 10:16:15 2018 -0400
+
+    disable KDE session restoration
+    
+    To prevent issue:
+    No command arguments supplied!
+    Usage: kdesudo [-u ]
+    KdeSudo will now exit…
+    
+    https://forums.whonix.org/t/kdesudo-error-popup-window-sdwdate-gui
+
+commit dadffce09a9b8298acab9e7666d6b7d522f02a05
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Aug 27 15:42:37 2018 +0000
+
+    bumped changelog version
+
 commit 6be8abca770c2824b9561766786c46f3c39c4a65
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Aug 21 05:11:21 2018 +0800

@@ -1,1 +1,4 @@
 /usr/share/gajim/plugins/plugin_installer/__init__.py
+/usr/bin/secbrowser
+/usr/share/applications/secbrowser.desktop
+/usr/bin/download-secbrowser

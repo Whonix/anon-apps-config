@@ -1,3 +1,15 @@
+commit 5e03c42c29e71dec006fd110e5d7d8d2a7592368
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jun 22 02:58:30 2019 -0400
+
+    hide secbrowser (should use Tor Browser instead in this configuration)
+
+commit f27e58715fe2f0d3563387859255e9e1fcc96935
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Jun 8 10:04:27 2019 +0000
+
+    bumped changelog version
+
 commit c7a60dd3654a2b869d84aa2371b7d8ef252dc5ed
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Jun 8 00:05:27 2019 -0400

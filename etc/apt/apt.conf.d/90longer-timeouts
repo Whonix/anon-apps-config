@@ -4,7 +4,6 @@
 #### meta start
 #### project Whonix
 #### category apps and networking
-#### gateway_only yes
 #### description
 ## longer APT timeouts and more retires
 #### meta end

@@ -1,6 +1,10 @@
 # Modified for Whonix, see COPYING for copying conditions.
 
-# TODO: Review
+#### meta start
+#### project Whonix
+#### category apps and security and performance
+#### description
+## TODO: Review
 
 [Module-bluedevil]
 autoload=false
@@ -28,3 +32,5 @@ autoload=false
 
 [Module-remotedirnotify]
 autoload=false
+
+#### meta end

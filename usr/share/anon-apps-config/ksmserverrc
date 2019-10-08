@@ -2,5 +2,11 @@
 ## See the file COPYING for copying conditions.
 
 [General]
+#### meta start
+#### project Whonix
+#### category apps and networking
+#### description
+## disable session saving
 ## https://forums.whonix.org/t/kdesudo-error-popup-window-sdwdate-gui
 loginMode=default
+#### meta end

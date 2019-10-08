@@ -1,6 +1,16 @@
-## From anon-kde-streamiso
+## Copyright (C) 2012 - 2019 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+#### meta start
+#### project Whonix
+#### category apps and networking
+#### description
+## KDE stream isolation settings.
+
 [Proxy Settings]
 NoProxyFor=127.0.0.1
 ProxyType=1
 ReversedException=false
 socksProxy=http://10.152.152.10 9122
+
+#### meta end

@@ -1,14 +1,18 @@
 ## Copyright (C) 2012 - 2019 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
 ## See the file COPYING for copying conditions.
 
-###
-###  vlc config file
-###
+#### meta start
+#### project Whonix
+#### category apps
+#### description
+## VLC configuration file
 
-# Issue : https://phabricator.whonix.org/T736
-# Do no ask for network policy at start (boolean)
+## Do no ask for network policy at start (boolean)
+## Issue: https://phabricator.whonix.org/T736
 qt-privacy-ask=0
 
-# Issue: https://phabricator.whonix.org/T798
-# VLC output is x11 to enable VM compatibility out-of-the-box
+## VLC output is x11 to enable VM compatibility out-of-the-box
+## Issue: https://phabricator.whonix.org/T798
 vout=xcb_x11
+
+#### end

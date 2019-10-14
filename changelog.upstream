@@ -1,3 +1,57 @@
+commit c6e678b69f32bb38bb913944f7b988d1adf2ca73
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 14 10:09:57 2019 +0000
+
+    readme
+
+commit ecfab7ba3be28fd582874fcdaf7de791b379ff88
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 8 11:48:22 2019 +0000
+
+    code documentation
+
+commit bd275e5071b135526a801bd42a08446c7263a979
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 8 11:35:26 2019 +0000
+
+    code documentation
+
+commit 8ff771a359e6be761ee4cb478e42c68cbee65389
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 8 11:33:34 2019 +0000
+
+    copyright
+
+commit bb8e379066b513dd7d14395445cced721640d5a3
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 8 07:30:26 2019 -0400
+
+    description
+
+commit 2f70f0c4f9b50e640c6f86ace1da07fdff6c9d18
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 8 07:29:23 2019 -0400
+
+    comment out sddm autologin
+    
+    keep comment for usability
+    
+    does not belong here
+    
+    also Whonix is no longer based on KDE
+
+commit a5fc5b05b4325c17a9f13181d04af8b87ba68166
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Oct 8 07:29:01 2019 -0400
+
+    code documentation
+
+commit 51fee3f88af44e1739d09d6b0c9f39ab3d323615
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 1 11:14:21 2019 +0000
+
+    bumped changelog version
+
 commit bf62919db76751d7c3e278e924f8bb542f7f86a9
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Aug 1 11:13:28 2019 +0000

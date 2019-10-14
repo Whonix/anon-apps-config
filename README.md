@@ -5,13 +5,6 @@ for existing user accounts.
 
 Enables Menubar in Dolphin by default.
 
-Enables passwordless Autologin in sddm by default.
-Useful in virtual machines, because there it makes less
-sense to use a password for desktop login (better used on the host).
-If you are using full disk encryption and are the only user of that
-machine, the password required for full disk encryption is enough and you may
-wish not to have an unnecessary extra login screen for the desktop.
-
 Deactivates KGpg's first run wizard. Uses hkp://qdigse2yzvuglcix.onion as
 default keyserver. Disables tip of the day. Disables KGpg's systray.
 

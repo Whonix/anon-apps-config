@@ -66,6 +66,10 @@ Disables systemd-resolved during boot unless file /etc/dns-enable exists.
 
 Disables systemd-resolved fallback DNS (which by default is set to Google).
 
+Removes capabilities from `/bin/ping` if [security-misc](https://github.com/Whonix/security-misc) is
+installed as ping doesn't work with Tor anyway and its capabilities are just
+unneeded attack surface.
+
 Due to technical limitations some settings only take effect for applications
 being started for the very first time, i.e. when the user config of that
 application in the user's home folder does not exist yet. Works best for new

@@ -1,3 +1,43 @@
+commit 5b5160ea47fa25d7d69158583cfbe22f89602f15
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 21 14:21:10 2019 -0500
+
+    readme
+
+commit 8dd3d39e525286ce19ab5409b9221a8fae9b25fe
+Merge: a6a6c2e ad578db
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 21 13:14:48 2019 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit ad578db974ec3be33ea1769bc70b4a2f7907c5b5
+Merge: a6a6c2e 014df39
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 21 18:11:30 2019 +0000
+
+    Merge pull request #6 from madaidan/ping-capabilities
+    
+    Remove ping capabilities
+
+commit 014df39060d950e02ccad89b684efda7e697cc93
+Author: madaidan <50278627+madaidan@users.noreply.github.com>
+Date:   Fri Dec 20 20:03:16 2019 +0000
+
+    Description
+
+commit 6b70f10083a7c75e1a7abdada615a84ff59ac898
+Author: madaidan <50278627+madaidan@users.noreply.github.com>
+Date:   Fri Dec 20 20:01:01 2019 +0000
+
+    Remove ping's capabilities
+
+commit a6a6c2ed3c58ef5b023866a8aed4ae1996d93420
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 14 10:10:14 2019 +0000
+
+    bumped changelog version
+
 commit c6e678b69f32bb38bb913944f7b988d1adf2ca73
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Oct 14 10:09:57 2019 +0000

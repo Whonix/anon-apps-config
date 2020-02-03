@@ -1,3 +1,101 @@
+commit 53dc9e32d6358171da4dbfa8e5432042fad72547
+Merge: 34c3fec 55ecf7a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Feb 3 08:38:33 2020 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 55ecf7a420767326dd6e542736a9e9a8ede08fca
+Merge: 34c3fec 5bf0730
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Feb 3 13:38:13 2020 +0000
+
+    Merge pull request #7 from HulaHoop0/patch-1
+    
+    Optimized I2P router.config
+
+commit 34c3fec2904c88a8b6a14bfadcb799010d12c8c5
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Feb 2 13:30:54 2020 -0500
+
+    formatting
+
+commit e29377f8cd4bf9b1b6bc54aa82c04428317f950c
+Merge: 672c491 4f16446
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Feb 2 13:30:30 2020 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 4f164460b883f1600278c5688fadc4967bb20492
+Merge: 672c491 ad24e92
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Feb 2 18:30:12 2020 +0000
+
+    Merge pull request #9 from HulaHoop0/patch-3
+    
+    clean-up
+
+commit ad24e9287d47546d774b2ac52c9702d361172dab
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Sun Feb 2 16:32:21 2020 +0000
+
+    clean-up
+
+commit 672c4914725650acf4e0bfe5558cc5abf45c618c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Feb 2 11:30:16 2020 -0500
+
+    privoxy config file license applies
+
+commit d63d705ce3abc971d00018aec86b0c10e9d84215
+Merge: 33df1db cfe2a9b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Feb 2 11:27:02 2020 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit cfe2a9bad8ef5c48b5b1d6a141113aaf4689e1e2
+Merge: 33df1db 0384581
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Feb 2 16:26:40 2020 +0000
+
+    Merge pull request #8 from HulaHoop0/patch-2
+    
+    Update config_anon-apps-config.conf
+
+commit 0384581694c33c27f4b9b2f743c4a5e9b7e0d349
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Sun Feb 2 16:13:14 2020 +0000
+
+    Update config_anon-apps-config.conf
+
+commit 33df1db157113066f5069f1145ee7164c7edec0c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Feb 2 03:43:25 2020 -0500
+
+    add empty privoxy config for i2p inside Whonix-Workstation
+    
+    https://forums.whonix.org/t/i2p-inside-whonix-workstation-broken/8610/63
+
+commit 5bf0730002167663cb546d297bdded8ffe5562b7
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Sat Feb 1 15:33:07 2020 +0000
+
+    Update router.config
+
+commit ee06ea535b700eb9400d694b8e84405b9b98b563
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Sat Feb 1 15:27:14 2020 +0000
+
+    Optimized I2P router.config
+
+commit 9cbfad0aa30ce2014b65d997007baa3bf26005ca
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 21 14:52:31 2019 -0500
+
+    bumped changelog version
+
 commit d3b75f8c8229b22b1e0100909ceb0eaf7ccba0a1
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Dec 21 14:52:19 2019 -0500

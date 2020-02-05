@@ -1,3 +1,69 @@
+commit 1125dd6945ec8c80a5c8eb720a2b7193f3f2bf72
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 5 01:04:40 2020 -0500
+
+    /usr/share/i2p/router.config config-package-dev displace
+    
+    https://forums.whonix.org/t/i2p-inside-whonix-workstation-broken/8610/83
+
+commit 76396e12492d20e7b881386ee7a477142f11cd07
+Merge: 0b24aae e273d24
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 5 00:55:49 2020 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit e273d24dd1ca5e3be30f5c0b1fb207c283a92d12
+Merge: 0a93440 f7ddb2d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 5 05:55:07 2020 +0000
+
+    Merge pull request #12 from HulaHoop0/patch-6
+    
+    Create router.config
+
+commit 0a934405825d32f3034eab3862e67017ad19e967
+Merge: dae8cca f2056b9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 5 05:54:50 2020 +0000
+
+    Merge pull request #11 from HulaHoop0/patch-5
+    
+    Delete router.config
+
+commit f7ddb2d35064be333a31220c123945c9939cc23a
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Tue Feb 4 19:13:13 2020 +0000
+
+    Create router.config
+
+commit f2056b92260629cba6c08ab9c3dc17a30fd45477
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Tue Feb 4 19:12:23 2020 +0000
+
+    Delete router.config
+
+commit dae8cca972ce0b5dec341848f8edcb0670ebaa00
+Merge: 0b24aae c9271f7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Feb 4 05:24:15 2020 +0000
+
+    Merge pull request #10 from HulaHoop0/patch-4
+    
+    router.sharePercentage=0
+
+commit c9271f705a8329b81e008f0e032dd726524bbad5
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Mon Feb 3 16:09:56 2020 +0000
+
+    router.sharePercentage=0
+
+commit 0b24aaec3caabb053a08862eebe12aa04a443485
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Feb 3 08:42:37 2020 -0500
+
+    bumped changelog version
+
 commit 53dc9e32d6358171da4dbfa8e5432042fad72547
 Merge: 34c3fec 55ecf7a
 Author: Patrick Schleizer <adrelanos@riseup.net>

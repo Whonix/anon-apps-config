@@ -1,0 +1,7 @@
+## Copyright (C) 2020 - 2020 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+## Install i2p by default but not enable / start i2p by default.
+## https://forums.whonix.org/t/installation-and-fix-of-i2p-inside-whonix-workstation-by-default/8610
+disable i2p.service
+disable privoxy.service

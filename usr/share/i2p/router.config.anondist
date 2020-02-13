@@ -20,3 +20,4 @@ router.sharePercentage=0
 routerconsole.country=
 routerconsole.lang=en
 router.updateDisabled=true
+routerconsole.welcomeWizardComplete=true

@@ -1,3 +1,33 @@
+commit 54e5c4b055bc07ff47546eabf279cf2f84e4d581
+Merge: 7a44c22 24d856f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Feb 13 10:03:29 2020 -0500
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 24d856f72958933d598fddd6e2ce96ae90f16406
+Merge: 7a44c22 16cd3d8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Feb 13 15:03:04 2020 +0000
+
+    Merge pull request #13 from Thinkablemell0w/patch-1
+    
+    skip First startup wizard
+
+commit 16cd3d822b3cfbe15314b43a0d57d911da2ac29d
+Author: Thinkablemell0w <60707409+Thinkablemell0w@users.noreply.github.com>
+Date:   Thu Feb 13 15:40:42 2020 +0100
+
+    skip First startup wizard
+    
+    skip First startup wizard
+
+commit 7a44c22cdaecb9e5cd445b8f7a0d47e6504851ef
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Feb 13 14:09:13 2020 +0000
+
+    bumped changelog version
+
 commit 34a0a115168e1173e1ed1a215d2db746740b0916
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Feb 13 07:01:07 2020 -0500

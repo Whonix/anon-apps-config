@@ -1,3 +1,17 @@
+commit 34a0a115168e1173e1ed1a215d2db746740b0916
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Feb 13 07:01:07 2020 -0500
+
+    not enable / start i2p by default
+    
+    https://forums.whonix.org/t/installation-and-fix-of-i2p-inside-whonix-workstation-by-default/8610
+
+commit a8252817a8d348d146c7216952e8b76e1e656f72
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Feb 5 06:30:50 2020 -0500
+
+    bumped changelog version
+
 commit 1125dd6945ec8c80a5c8eb720a2b7193f3f2bf72
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Feb 5 01:04:40 2020 -0500

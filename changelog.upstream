@@ -1,3 +1,17 @@
+commit d54212e7fddd1c45ca068e3f591c77dda40060f0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 14 03:35:18 2020 -0500
+
+    Make systemd drop-in config snippets take effect.
+    
+    for I2P pre-configuration
+
+commit 6cfd1afcf1522d9bbbe7f0e5c0b5a63adaafb844
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Feb 13 11:02:26 2020 -0500
+
+    bumped changelog version
+
 commit 54e5c4b055bc07ff47546eabf279cf2f84e4d581
 Merge: 7a44c22 24d856f
 Author: Patrick Schleizer <adrelanos@riseup.net>

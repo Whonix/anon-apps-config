@@ -71,6 +71,9 @@ Removes capabilities from `/bin/ping` if
 installed as ping doesn't work with Tor anyway and its capabilities are just
 unneeded attack surface.
 
+Create a dummy Tor binary '/home/user/.local/share/Bisq/btc_mainnet/tor/tor'
+to avoid Tor over Tor.
+
 Due to technical limitations some settings only take effect for applications
 being started for the very first time, i.e. when the user config of that
 application in the user's home folder does not exist yet. Works best for new

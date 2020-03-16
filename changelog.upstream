@@ -1,3 +1,24 @@
+commit 9220128127659741dbaf9eee412b2b09bd2c9ed1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Mar 16 09:31:06 2020 -0400
+
+    readme
+
+commit 4b19013c8cb0b9b9e93f41335d41ff4638046d03
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Mar 16 09:00:52 2020 -0400
+
+    Bisq: avoid Tor over Tor by
+    creating a dummy Tor binary `/home/user/.local/share/Bisq/btc_mainnet/tor/tor`.
+    
+    https://www.whonix.org/wiki/Bisq
+
+commit 9002216058dbf8d7049f0263dfcab68ef62321fb
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Feb 14 03:37:44 2020 -0500
+
+    bumped changelog version
+
 commit d54212e7fddd1c45ca068e3f591c77dda40060f0
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Feb 14 03:35:18 2020 -0500

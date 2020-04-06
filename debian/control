@@ -104,7 +104,7 @@ Description: anonymity, privacy and security settings pre-configuration
   - `/usr/lib/xchat/plugins/python.so`
   - `/usr/lib/xchat/plugins/tcl.so`
   - `/usr/lib/xchat/plugins/perl.so`
- to `/usr/share/xchat-improved-privacy`, so these plugins get disabled by
+ to `/usr/share/anon-apps-config`, so these plugins get disabled by
  default.
  .
  Due to technical limitations some settings only take effect for applications

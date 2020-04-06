@@ -16,12 +16,15 @@ Architecture: all
 Depends: ${misc:Depends}
 Recommends: anon-icon-pack, anon-gpg-tweaks
 Replaces: kde-kdm-autologin, kde-apper-no-autoupdate, pkg-manager-no-autoupdate,
- pkg-manager-longer-timeouts, anon-gpg-tweaks, xchat-improved-privacy
+ pkg-manager-longer-timeouts, anon-gpg-tweaks, xchat-improved-privacy,
+ timezone-utc
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: anonymity, privacy and security settings pre-configuration
  Most settings take effect for newly created user account onlys, and not
  for existing user accounts.
+ .
+ Sets timezone to UTC.
  .
  Enables Menubar in Dolphin by default.
  .

@@ -16,4 +16,9 @@
 /usr/share/applications/secbrowser.desktop
 /usr/bin/download-secbrowser
 
+## XChat
+/usr/lib/xchat/plugins/python.so
+/usr/lib/xchat/plugins/tcl.so
+/usr/lib/xchat/plugins/perl.so
+
 #### meta end

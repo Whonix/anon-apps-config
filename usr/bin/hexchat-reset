@@ -1,0 +1,40 @@
+#!/bin/bash
+
+## Copyright (C) 2012 - 2020 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+## Enable verbose output.
+set -x
+
+error_handler() {
+   true "ERROR!"
+   exit 1
+}
+
+trap error_handler ERR
+
+if [ "$(id -u)" == "0" ]; then
+      true "Do not run as root!"
+      exit 112
+fi
+
+true "INFO: Resetting your IRC HexChat identity..."
+killall hexchat || true
+
+## Make a backup
+datestring="$(date '+%F-%H:%M:%S')"
+backup_folder=~/hexchat_${datestring}
+if [ -d ~/.config/hexchat ]; then
+   mv ~/.config/hexchat "$backup_folder"
+fi
+
+## XChat settings from:
+## https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/XChat
+
+## Copy config files.
+mkdir --parents ~/.config/hexchat
+cp -r /etc/skel/.config/hexchat ~/.config/
+
+true "INFO: Done."
+true "INFO: A backup can be found: $backup_folder - feel free to delete it."
+true "INFO: Be sure to change your Tor circuit before reconnecting to IRC!"

@@ -16,7 +16,7 @@ Architecture: all
 Depends: ${misc:Depends}
 Recommends: anon-icon-pack, anon-gpg-tweaks
 Replaces: kde-kdm-autologin, kde-apper-no-autoupdate, pkg-manager-no-autoupdate,
- pkg-manager-longer-timeouts, anon-gpg-tweaks
+ pkg-manager-longer-timeouts, anon-gpg-tweaks, xchat-improved-privacy
 Provides: ${diverted-files}
 Conflicts: ${diverted-files}
 Description: anonymity, privacy and security settings pre-configuration
@@ -97,6 +97,15 @@ Description: anonymity, privacy and security settings pre-configuration
  .
  Create a dummy Tor binary '/home/user/.local/share/Bisq/btc_mainnet/tor/tor'
  to avoid Tor over Tor.
+ .
+ Improves HexChat Privacy Settings
+  * As per: https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/XChat
+  * Moves the following files:
+  - `/usr/lib/xchat/plugins/python.so`
+  - `/usr/lib/xchat/plugins/tcl.so`
+  - `/usr/lib/xchat/plugins/perl.so`
+ to `/usr/share/xchat-improved-privacy`, so these plugins get disabled by
+ default.
  .
  Due to technical limitations some settings only take effect for applications
  being started for the very first time, i.e. when the user config of that

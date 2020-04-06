@@ -1,0 +1,39 @@
+xchat-reset(1) -- XChat New Identity
+=============================================
+
+<span class="comment">
+# Copyright (C) 2012 - 2020 ENCRYPTED SUPPORT LP <adrelanos@riseup.net>
+# See the file COPYING for copying conditions.
+</span>
+
+## SYNOPSIS
+`xchat-reset`
+
+## DESCRIPTION
+Kills running `XChat`(1) processes, moves your `/home/user/.xchat2` folder to
+`/home/user/.xchat2_(current date and time)` as a backup. Then creates a fresh
+XChat profile folder `/home/user/.xchat2`, with privacy hardened defaults,
+which come with Whonix.
+
+Be sure to change your Tor circuit before reconnecting to IRC!
+
+## EXIT CODES
+0 Success
+
+1 Error
+
+## EXAMPLE
+`xchat-reset`
+
+## NOTES
+Do not run as root!
+
+## PORTING
+This script is currently only tested in Whonix. It could be easily made to work
+in Tails or on any Linux.
+
+## WWW
+https://www.whonix.org/wiki/XChat
+
+## AUTHOR
+This man page has been written by Patrick Schleizer (adrelanos@riseup.net).

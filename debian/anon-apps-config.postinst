@@ -51,9 +51,9 @@ umask 022
    TZdate=$(unset TZ ; LANG=C date -d "$TZBase")
    echo "Local time is now:      $TZdate."
    echo "Universal Time is now:  $UTdate."
-   if [ -z "$DEBCONF_RECONFIGURE" ] ; then
-      echo "Run 'sudo apt-get purge timezone-utc' followed by 'sudo dpkg-reconfigure tzdata' if you wish to change it (recommended against for Anonymity Linux Distributions)."
-   fi
+#    if [ -z "$DEBCONF_RECONFIGURE" ] ; then
+#       echo "Run 'sudo apt-get purge timezone-utc' followed by 'sudo dpkg-reconfigure tzdata' if you wish to change it (recommended against for Anonymity Linux Distributions)."
+#    fi
    echo
 #fi
 

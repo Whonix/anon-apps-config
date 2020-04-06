@@ -1,0 +1,26 @@
+.\" generated with Ronn-NG/v0.8.0
+.\" http://github.com/apjanke/ronn-ng/tree/0.8.0
+.TH "XCHAT\-RESET" "1" "April 2020" "anon-apps-config" "anon-apps-config Manual"
+.SH "NAME"
+\fBxchat\-reset\fR \- XChat New Identity
+.P
+.SH "SYNOPSIS"
+\fBxchat\-reset\fR
+.SH "DESCRIPTION"
+Kills running \fBXChat\fR(1) processes, moves your \fB/home/user/\.xchat2\fR folder to \fB/home/user/\.xchat2_(current date and time)\fR as a backup\. Then creates a fresh XChat profile folder \fB/home/user/\.xchat2\fR, with privacy hardened defaults, which come with Whonix\.
+.P
+Be sure to change your Tor circuit before reconnecting to IRC!
+.SH "EXIT CODES"
+0 Success
+.P
+1 Error
+.SH "EXAMPLE"
+\fBxchat\-reset\fR
+.SH "NOTES"
+Do not run as root!
+.SH "PORTING"
+This script is currently only tested in Whonix\. It could be easily made to work in Tails or on any Linux\.
+.SH "WWW"
+https://www\.whonix\.org/wiki/XChat
+.SH "AUTHOR"
+This man page has been written by Patrick Schleizer (adrelanos@riseup\.net)\.

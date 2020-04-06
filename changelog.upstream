@@ -1,3 +1,39 @@
+commit 0666ce4735459b7af557ca63ffc4fbda1807f36f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 13:22:03 2020 -0400
+
+    readme
+
+commit 1cf8386c7ebe233bd3386187ac54f7a1ab623b52
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 13:17:59 2020 -0400
+
+    description
+
+commit 7e763bde8d220e7a2bab702e06f25d024302903d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 11:08:33 2020 -0400
+
+    add auto generated man pages
+
+commit b6efc7ebf2646e5a475aab45e453bf76a7d5dba0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 11:08:16 2020 -0400
+
+    import from xchat-improved-privacy
+
+commit db2a00141c2f316ac525b4d5a585179c7aa5a604
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 09:25:23 2020 -0400
+
+    import from anon-gpg-conf
+
+commit f8f5ba1f03499ac5d65962dc84445a71477d5148
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 2 07:23:14 2020 -0400
+
+    bumped changelog version
+
 commit 2e6d5b84d9f77d73f0053fa1c5d075e9194c521d
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 2 07:22:03 2020 -0400

@@ -5,7 +5,11 @@ for existing user accounts.
 
 Enables Menubar in Dolphin by default.
 
-Deactivates KGpg's first run wizard. Uses hkp://qdigse2yzvuglcix.onion as
+gnupg configuration for Anonymity Distributions:
+* Sets `use-tor` in `/etc/skel/.gnupg/dirmngr.conf`.
+* Ships Thunderbird torbirdy configuration file
+`/etc/thunderbird/pref/30_whonix.js` that allows torified keyserver access.
+* Deactivates KGpg's first run wizard. Uses hkp://qdigse2yzvuglcix.onion as
 default keyserver. Disables tip of the day. Disables KGpg's systray.
 
 Double click instead of single click in KDE.
@@ -73,6 +77,15 @@ unneeded attack surface.
 
 Create a dummy Tor binary '/home/user/.local/share/Bisq/btc_mainnet/tor/tor'
 to avoid Tor over Tor.
+
+Improves HexChat Privacy Settings
+* As per: https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/XChat
+* Moves the following files:
+- `/usr/lib/xchat/plugins/python.so`
+- `/usr/lib/xchat/plugins/tcl.so`
+- `/usr/lib/xchat/plugins/perl.so`
+to `/usr/share/anon-apps-config`, so these plugins get disabled by
+default.
 
 Due to technical limitations some settings only take effect for applications
 being started for the very first time, i.e. when the user config of that

@@ -1,3 +1,27 @@
+commit 8628ddf55bfe32b26276b7aa4670b9ad7bc051cc
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Apr 7 10:33:08 2020 +0000
+
+    readme
+
+commit 76809c6871c9c2ae58c63da8252f8b09239fb1c1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 20:02:37 2020 +0000
+
+    change of timezone no longer documented in stdout
+
+commit fb0c77adfeb946f48c2d89c037a74cd7cea7bbd7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 20:01:05 2020 +0000
+
+    import from timezone-utc
+
+commit 605bbeea81a634fcfc51893481dd1cebf237d227
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Apr 6 13:22:53 2020 -0400
+
+    bumped changelog version
+
 commit 0666ce4735459b7af557ca63ffc4fbda1807f36f
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Apr 6 13:22:03 2020 -0400

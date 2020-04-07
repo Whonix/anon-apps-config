@@ -3,6 +3,8 @@
 Most settings take effect for newly created user account onlys, and not
 for existing user accounts.
 
+Sets timezone to UTC.
+
 Enables Menubar in Dolphin by default.
 
 gnupg configuration for Anonymity Distributions:

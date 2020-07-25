@@ -6,6 +6,8 @@
 // While your changes will be kept on upgrade if you modify files in
 // /etc/thunderbird/pref, please note that they won't be kept if you
 // do them in /usr/lib/thunderbird/defaults/pref.
+// Original: https://git-tails.immerda.ch/tails/plain/config/chroot_local-includes/etc/thunderbird/pref/thunderbird.js
+// Related Topic: https://forums.whonix.org/t/torbirdy-deprecated-replacement-required/8782/6
 
 pref("extensions.update.enabled", false);
 

@@ -1,3 +1,77 @@
+commit 7137bdf610ea72ad9e22056d87590083fa34a87e
+Merge: 4c41aa1 6b28cb8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 26 04:50:46 2020 -0400
+
+    Merge remote-tracking branch 'github/master'
+
+commit 6b28cb8d660cb22db1785d6573fea9c86ef30564
+Merge: 48067f8 48e7600
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 26 08:49:22 2020 +0000
+
+    Merge pull request #15 from Whonix/HulaHoop0-patch-2
+    
+    Create thunderbird.cfg
+
+commit 4c41aa146bec92f0ded5f7f834734a3b60c2c757
+Merge: 81eb021 48067f8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 26 04:48:36 2020 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 48067f8c60d5efb434f7387c349e2269646c5799
+Merge: 5d6fb10 81c4ee1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 26 08:47:17 2020 +0000
+
+    Merge pull request #14 from Whonix/HulaHoop0-patch-1
+    
+    Create thunderbird.js
+
+commit 81eb0218bd82cf82b732bcb6c1eaf19742f6c531
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 26 04:46:25 2020 -0400
+
+    /etc/thunderbird copyright
+    
+    https://forums.whonix.org/t/torbirdy-deprecated-replacement-required/8782/15
+
+commit 48e7600d84816135e0a0fd746b4770cd560673bc
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Sat Jul 25 13:33:59 2020 +0000
+
+    Create thunderbird.cfg
+    
+    Enhanced Thunderbird anonymity and security settings.
+
+commit 81c4ee1fa179b785dfd2135cdae97803cd6d0f24
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Sat Jul 25 13:22:43 2020 +0000
+
+    Update thunderbird.js
+
+commit 5d6fb10ecee6d9e9ecb501bedd8261a90a82cff9
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Sat Jul 25 13:19:30 2020 +0000
+
+    Create userChrome.css
+    
+    Hides chat button from interface
+
+commit 58ee2fe4567fc22db3534f5784d704e03ffbcc58
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Sat Jul 25 13:11:15 2020 +0000
+
+    Create thunderbird.js
+
+commit f88788864730d6c941897a8e2ff8d0f31ccc04b1
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Apr 16 08:18:01 2020 -0400
+
+    bumped changelog version
+
 commit e2310dace365d8e7e11ed0db83e3f3c6b41a1aee
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Wed Apr 15 14:05:25 2020 -0400

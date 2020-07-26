@@ -1,3 +1,19 @@
+commit 3c98e2eaf0af1f1cc9b4a275230f5d791e1ed797
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 26 06:42:04 2020 -0400
+
+    rename to /etc/thunderbird/pref/40_thunderbird.js
+    
+    to fix packaging conflict
+    
+    https://forums.whonix.org/t/torbirdy-deprecated-replacement-required/8782/18
+
+commit 004e423319d94fe192afb5487391b196999b5617
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 26 05:59:12 2020 -0400
+
+    bumped changelog version
+
 commit 7137bdf610ea72ad9e22056d87590083fa34a87e
 Merge: 4c41aa1 6b28cb8
 Author: Patrick Schleizer <adrelanos@riseup.net>

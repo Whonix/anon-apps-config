@@ -18,6 +18,9 @@ pref("extensions.update.enabled", false);
 // pulling the system locale into Thunderbird.
 pref("intl.locale.requested", "");
 
+// For extensions.torbirdy.defaultprotocol, POP = 0, IMAP = 1
+pref("extensions.torbirdy.defaultprotocol", 0);
+
 // Disable default mail checking (gnome).
 pref("mail.shell.checkDefaultMail", false);
 

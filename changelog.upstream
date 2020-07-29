@@ -1,3 +1,22 @@
+commit 886069a571c4eab7a0c622365633f1c5d3623210
+Merge: c1819de edcb934
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jul 29 10:48:31 2020 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit edcb934723e5b2f9c75825c9e92a34cb3964cdbf
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Wed Jul 29 13:30:09 2020 +0000
+
+    Default POP. Effective when patched ver used
+
+commit c1819de0c0d190241028c9f73a0f54e27c49dcd6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jul 29 08:30:53 2020 -0400
+
+    bumped changelog version
+
 commit 6eb14bfb4d921cb0e01ff13058018615d2678a8f
 Merge: f4827c2 86b59ec
 Author: Patrick Schleizer <adrelanos@riseup.net>

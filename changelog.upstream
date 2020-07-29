@@ -1,3 +1,22 @@
+commit 6eb14bfb4d921cb0e01ff13058018615d2678a8f
+Merge: f4827c2 86b59ec
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jul 29 07:07:15 2020 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 86b59ece4f98e94c99c556023355fd3948163180
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Tue Jul 28 14:56:27 2020 +0000
+
+    Enabled addons to make Enigmail work
+
+commit f4827c2756fd63b16ed787d39634e9f0fc222d56
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Jul 26 06:42:39 2020 -0400
+
+    bumped changelog version
+
 commit 3c98e2eaf0af1f1cc9b4a275230f5d791e1ed797
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sun Jul 26 06:42:04 2020 -0400

@@ -1,3 +1,9 @@
+anon-apps-config (3:4.7-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Wed, 29 Jul 2020 12:30:53 +0000
+
 anon-apps-config (3:4.6-1) unstable; urgency=medium
 
   * New upstream version (local package).

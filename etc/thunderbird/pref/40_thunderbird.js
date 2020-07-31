@@ -9,6 +9,9 @@
 // Original: https://git-tails.immerda.ch/tails/plain/config/chroot_local-includes/etc/thunderbird/pref/thunderbird.js
 // Related Topic: https://forums.whonix.org/t/torbirdy-deprecated-replacement-required/8782/6
 
+// Loading the lock file: http://kb.mozillazine.org/Lock_Prefs
+pref("general.config.filename", "thunderbird.cfg");
+
 pref("extensions.update.enabled", false);
 
 // Use LANG environment variable to choose locale from system
@@ -17,9 +20,6 @@ pref("extensions.update.enabled", false);
 // 'intl.locale.requested' is now used for this. Setting an empty string is
 // pulling the system locale into Thunderbird.
 pref("intl.locale.requested", "");
-
-// For extensions.torbirdy.defaultprotocol, POP = 0, IMAP = 1
-pref("extensions.torbirdy.defaultprotocol", 0);
 
 // Disable default mail checking (gnome).
 pref("mail.shell.checkDefaultMail", false);
@@ -93,7 +93,7 @@ pref("network.proxy.failover_timeout", 1800);
 
 // Configure Thunderbird to use the SOCKS5 proxy.
 pref("network.proxy.socks", "127.0.0.1");
-pref("network.proxy.socks_port", 9050);
+pref("network.proxy.socks_port", 9102);
 pref("network.proxy.socks_version", 5);
 
 // Set DNS proxying through SOCKS5.

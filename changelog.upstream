@@ -1,3 +1,24 @@
+commit 978428e34247875e80ee2dd3d8e7d69f0f8a5793
+Merge: e4e08b5 a4a121b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jul 31 05:53:32 2020 -0400
+
+    Merge remote-tracking branch 'origin/master'
+
+commit a4a121b5015f0379d9447600a0ec591cc87ef2e4
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Thu Jul 30 12:00:39 2020 +0000
+
+    thunderbird.cfg activated, socksport adjusted,
+    
+    POP3 default selection is broken and Tails removed their patch: https://gitlab.tails.boum.org/tails/tails/-/issues/17276. Removed dummy pref.
+
+commit e4e08b50c60353cce6c770c251bfd5a82e4048af
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jul 29 12:01:55 2020 -0400
+
+    bumped changelog version
+
 commit 886069a571c4eab7a0c622365633f1c5d3623210
 Merge: c1819de edcb934
 Author: Patrick Schleizer <adrelanos@riseup.net>

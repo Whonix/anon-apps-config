@@ -1,3 +1,21 @@
+commit 85dcdaaeafe150a740949d5b8d167e6f0fa10c7d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Sep 14 05:50:55 2020 -0400
+
+    Skip setting timezone to UTC if file /etc/noutc or /usr/local/etc/noutc exists.
+
+commit 206ea2215546151924069031f719f1840721f89d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Sep 14 05:46:34 2020 -0400
+
+    cleanup / refactoring
+
+commit 56b898c7329f9c07907612bc43fd8b3bf405c3d8
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Jul 31 06:35:54 2020 -0400
+
+    bumped changelog version
+
 commit 978428e34247875e80ee2dd3d8e7d69f0f8a5793
 Merge: e4e08b5 a4a121b
 Author: Patrick Schleizer <adrelanos@riseup.net>

@@ -16,6 +16,11 @@ true "
 "
 
 timezone_utc() {
+   if [ -f /etc/noutc ] || [ -f /usr/local/etc/noutc ]; then
+      echo "File /etc/noutc / /usr/local/etc/noutc exists. Not setting timezone to UTC."
+      return 0
+   fi
+
    LC_ALL=C
    LANG=C
    unset TZ

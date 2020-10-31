@@ -1,3 +1,21 @@
+commit 39c1f48912de25ea6023ae6acdffe6acb31c752c
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Oct 31 06:05:03 2020 -0400
+
+    readme
+
+commit cdf0aa1176b97038e9364ab8ba9c9c067deee7ce
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Oct 31 05:46:39 2020 -0400
+
+    chmod +x /etc/X11/Xsession.d/50anon-apps-config
+
+commit be453e6435788cf9afde498a1cd7234605d1ab80
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Sep 14 06:09:43 2020 -0400
+
+    bumped changelog version
+
 commit 85dcdaaeafe150a740949d5b8d167e6f0fa10c7d
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Sep 14 05:50:55 2020 -0400

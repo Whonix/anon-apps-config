@@ -98,7 +98,7 @@ This package is most useful to help Linux distribution maintainers setting
 divergent defaults.
 ## How to install `anon-apps-config` using apt-get ##
 
-1\. Download [Whonix's Signing Key]().
+1\. Download Whonix's Signing Key.
 
 ```
 wget https://www.whonix.org/patrick.asc

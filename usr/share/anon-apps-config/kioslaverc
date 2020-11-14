@@ -11,6 +11,7 @@
 NoProxyFor=127.0.0.1
 ProxyType=1
 ReversedException=false
+## IP HARDCODED
 socksProxy=http://10.152.152.10 9122
 
 #### meta end

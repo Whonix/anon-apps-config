@@ -10,12 +10,6 @@
 ## gajim plugin installer does not cryptographically verify downloads.
 /usr/share/gajim/plugins/plugin_installer/__init__.py
 
-## SecBrowser should not be shown in anonymity distributions by default.
-## Tor Browser is installed there already.
-/usr/bin/secbrowser
-/usr/share/applications/secbrowser.desktop
-/usr/bin/download-secbrowser
-
 ## XChat
 /usr/lib/xchat/plugins/python.so
 /usr/lib/xchat/plugins/tcl.so

@@ -29,7 +29,7 @@ if [ -d ~/.config/hexchat ]; then
 fi
 
 ## XChat settings from:
-## https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/XChat
+## https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorifyHOWTO/XChat
 
 ## Copy config files.
 mkdir --parents ~/.config/hexchat

@@ -82,7 +82,8 @@ Create a dummy Tor binary '/home/user/.local/share/Bisq/btc_mainnet/tor/tor'
 to avoid Tor over Tor.
 
 Improves HexChat Privacy Settings
-* As per: https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorifyHOWTO/XChat
+* As per:
+https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorifyHOWTO/XChat
 * Moves the following files:
 - `/usr/lib/xchat/plugins/python.so`
 - `/usr/lib/xchat/plugins/tcl.so`

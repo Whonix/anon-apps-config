@@ -11,8 +11,9 @@ gnupg configuration for Anonymity Distributions:
 * Sets `use-tor` in `/etc/skel/.gnupg/dirmngr.conf`.
 * Ships Thunderbird torbirdy configuration file
 `/etc/thunderbird/pref/30_whonix.js` that allows torified keyserver access.
-* Deactivates KGpg's first run wizard. Uses hkp://qdigse2yzvuglcix.onion as
-default keyserver. Disables tip of the day. Disables KGpg's systray.
+* Deactivates KGpg's first run wizard. Disables tip of the day.
+Disables KGpg's systray. Disables key server. Reference:
+"High-risk users should stop using the keyserver network immediately."
 
 Double click instead of single click in KDE.
 

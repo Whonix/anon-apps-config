@@ -1,3 +1,35 @@
+commit d40d6a4911aa1bd38ed8e588b099cd7eda3c92e8
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Jun 1 07:31:43 2021 -0400
+
+    readme
+
+commit d6d2e60edfabf191ffa62e8f9f9c72745c7de6ec
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Jun 1 07:20:57 2021 -0400
+
+    comment
+
+commit af242feb4f68295fd9ec82724936f7ca9e760e37
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Jun 1 05:35:36 2021 -0400
+
+    comment
+
+commit 6565f75097421681fac963db1469f85fafb6eba9
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon May 31 03:21:26 2021 -0400
+
+    disable gpg default key servers
+    
+    https://forums.whonix.org/t/gpg-recv-keys-fails-no-longer-use-keyservers-for-anything/5607/8
+
+commit cdafef92d13269f18dfb0070a44ac477ad0466ad
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri May 7 12:08:07 2021 -0400
+
+    bumped changelog version
+
 commit 4d0b1ae3fdd83a84e6588ac1d71ab6de84a841fd
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri May 7 12:08:06 2021 -0400

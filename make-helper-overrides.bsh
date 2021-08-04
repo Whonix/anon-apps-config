@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## Copyright (C) 2021 - 2021 ENCRYPTED SUPPORT LP <adrelanos@whonix.org>
+## See the file COPYING for copying conditions.
+
+## /usr/share/anon-apps-config/share/ seems OK.
+genmkfile_lintian_post_opts+=" --suppress-tags repeated-path-segment"

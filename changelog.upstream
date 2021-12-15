@@ -1,3 +1,29 @@
+commit 7892543371ccc224c8fca50a76e71e08704f8afe
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Dec 15 06:19:22 2021 -0500
+
+    disable Thunderbird default homepage by default
+    
+    to avoid https connection
+    
+    for better security hardening
+    
+    Thanks to @HulaHoop for the suggestion!
+    
+    https://forums.whonix.org/t/canning-thunderbirds-startpage/13007/1
+
+commit dc1818b1dae0b4fd7c14dcb99f8b5ebe5346987d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Nov 9 14:32:27 2021 -0500
+
+    readme
+
+commit 64d3d6f2996a3c308fc9fa6afe8e6f68066c085f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Sep 11 18:28:53 2021 -0400
+
+    bumped changelog version
+
 commit 2101a981f9a653e63a4fbba20038c4a59c0f9c11
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Sep 11 16:31:00 2021 -0400

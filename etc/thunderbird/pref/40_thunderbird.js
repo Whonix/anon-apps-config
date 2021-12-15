@@ -370,3 +370,6 @@ pref("layout.css.visited_links_enabled", false);
 
 // Disable third-party images.
 pref("permissions.default.image", 3);
+
+// https://forums.whonix.org/t/canning-thunderbirds-startpage/13007
+pref("mailnews.start_page.enabled", false);

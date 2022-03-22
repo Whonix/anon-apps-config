@@ -15,7 +15,7 @@ Rules-Requires-Root: no
 Package: anon-apps-config
 Architecture: all
 Depends: ${misc:Depends}
-Recommends: anon-icon-pack
+Recommends: icon-pack-dist
 Replaces: kde-kdm-autologin, kde-apper-no-autoupdate, pkg-manager-no-autoupdate,
  pkg-manager-longer-timeouts, anon-gpg-tweaks, xchat-improved-privacy,
  timezone-utc

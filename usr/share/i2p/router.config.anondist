@@ -21,3 +21,4 @@ routerconsole.country=
 routerconsole.lang=en
 router.updateDisabled=true
 routerconsole.welcomeWizardComplete=true
+time.disabled=true

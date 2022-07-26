@@ -1,3 +1,33 @@
+commit 655cfee38883fceb2e251cc0e6e62a14e43a6ae6
+Merge: e2c8a3d 10d3395
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jul 25 13:10:23 2022 -0400
+
+    Merge remote-tracking branch 'github-whonix/master'
+
+commit 10d33952c2738aa74bb8af80a3d37674c6a5304b
+Merge: e2c8a3d dc2b157
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jul 25 13:05:48 2022 -0400
+
+    Merge pull request #1 from TNTBOMBOM/patch-2
+    
+    disable ntp time check
+
+commit dc2b157e61dfb7b324a3f61589c75c9acca23ac8
+Author: TNT BOM BOM <TNTBOMBOM@users.noreply.github.com>
+Date:   Mon Jul 25 16:17:36 2022 +0000
+
+    disable ntp time check
+    
+    disabled time check since it uses ntp which doesnt exist in whonix. (it has no effect on the connection)
+
+commit e2c8a3de94b6180fcc99e0f2d3fa5fab009f1c2f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed May 25 06:07:36 2022 -0400
+
+    bumped changelog version
+
 commit 5b3286b7c56c02fb0666e7db0d726a7a80f7e527
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri May 20 15:27:13 2022 -0400

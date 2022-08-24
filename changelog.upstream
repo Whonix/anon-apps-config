@@ -1,3 +1,41 @@
+commit 8773f211e508b26f4ee3ec21cb5e47faaf75cb11
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Aug 22 06:58:57 2022 -0400
+
+    chmod +x etc/onionjuggler/conf.d/30_whonix.conf
+    
+    to fix lintian warning
+    
+    W: anon-apps-config: script-not-executable etc/onionjuggler/conf.d/30_whonix.conf
+
+commit 21048975be485c8ecb3531d3d6e653e5b14186c2
+Merge: fbc02ba 3cc11c3
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Aug 22 06:57:40 2022 -0400
+
+    Merge remote-tracking branch 'github-whonix/master'
+
+commit 3cc11c3d127c406d6a8c39e964fededa9ee859a0
+Merge: fbc02ba 73aa4a4
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Aug 22 06:57:52 2022 -0400
+
+    Merge pull request #2 from nyxnor/onionjuggler-inclusion
+    
+    add onionjuggler whonix conf
+
+commit 73aa4a4668a4d1d55ac9f454217dab3c2d0ca04b
+Author: nyxnor <nyxnor@protonmail.com>
+Date:   Wed Aug 17 20:05:41 2022 +0000
+
+    add onionjuggler whonix conf
+
+commit fbc02ba124b0b39f1231536492d9b870019d49eb
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Jul 26 06:56:59 2022 -0400
+
+    bumped changelog version
+
 commit 655cfee38883fceb2e251cc0e6e62a14e43a6ae6
 Merge: e2c8a3d 10d3395
 Author: Patrick Schleizer <adrelanos@whonix.org>

@@ -1,3 +1,31 @@
+commit 240323210ebc8013c8211147ee10817c09e77509
+Merge: 197e6dc 8342b41
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 30 15:55:15 2022 -0400
+
+    Merge remote-tracking branch 'github-whonix/master'
+
+commit 8342b41b92971057343de45a64724db9844062d5
+Merge: 197e6dc b065417
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Aug 30 15:51:02 2022 -0400
+
+    Merge pull request #3 from nyxnor/oj-update
+    
+    update onionjuggler conf
+
+commit b0654176ae94091eb4e0920ec1a1e15d8b2d2ecc
+Author: nyxnor <nyxnor@protonmail.com>
+Date:   Tue Aug 30 12:29:58 2022 +0000
+
+    update onionjuggler conf
+
+commit 197e6dc3cc207284aa85cecc9167ce0cbb86f53a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Aug 24 18:29:01 2022 -0400
+
+    bumped changelog version
+
 commit 8773f211e508b26f4ee3ec21cb5e47faaf75cb11
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Aug 22 06:58:57 2022 -0400

@@ -1,3 +1,54 @@
+commit 49ecbc1c2a8d9fc20b5784a8c81c06e685449b86
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Sep 26 07:57:40 2022 -0400
+
+    pref(“mailnews.start_page.enabled”, false);
+
+commit 60036345bc93d55db0980b649fae2b6330f7d8d2
+Merge: acb55f3 e25fc83
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Sep 26 07:53:10 2022 -0400
+
+    Merge remote-tracking branch 'github-whonix/master'
+
+commit e25fc831f2a9443f53073b0f0cb7cda1c36b8862
+Merge: cc05f02 906f86b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Sep 26 07:52:36 2022 -0400
+
+    Merge pull request #5 from HulaHoop0/patch-2
+    
+    Drop everything related to  Enigmail
+
+commit cc05f026dc217ce32e1d10df6fd6ac5b8c9ba2a1
+Merge: acb55f3 113998b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Sep 26 07:52:02 2022 -0400
+
+    Merge pull request #4 from HulaHoop0/patch-1
+    
+    Updated to reflect Tails version as of 2022
+
+commit 906f86ba462ef8fb0a8f84a2dc540511fe18fb88
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Mon Sep 26 08:25:39 2022 +0000
+
+    Drop everything related to  Enigmail
+    
+    Updated to reflect Tails version as of 2022
+
+commit 113998b6453c61c8861eb0cae80e55d2624f8ebb
+Author: HulaHoop0 <55955185+HulaHoop0@users.noreply.github.com>
+Date:   Mon Sep 26 08:20:03 2022 +0000
+
+    Updated to reflect Tails version as of 2022
+
+commit acb55f32576e65ec50f7f2d760ecd148b68df3f7
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Sep 1 07:46:41 2022 -0400
+
+    bumped changelog version
+
 commit 240323210ebc8013c8211147ee10817c09e77509
 Merge: 197e6dc 8342b41
 Author: Patrick Schleizer <adrelanos@whonix.org>

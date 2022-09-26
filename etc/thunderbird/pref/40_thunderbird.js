@@ -6,11 +6,13 @@
 // While your changes will be kept on upgrade if you modify files in
 // /etc/thunderbird/pref, please note that they won't be kept if you
 // do them in /usr/lib/thunderbird/defaults/pref.
-// Original: https://git-tails.immerda.ch/tails/plain/config/chroot_local-includes/etc/thunderbird/pref/thunderbird.js
+// Original: https://gitlab.tails.boum.org/tails/tails/-/blob/stable/config/chroot_local-includes/etc/thunderbird/pref/aa_tails.js
 // Related Topic: https://forums.whonix.org/t/torbirdy-deprecated-replacement-required/8782/6
 
-// Loading the lock file: http://kb.mozillazine.org/Lock_Prefs
+// Original: https://gitlab.tails.boum.org/tails/tails/-/blob/stable/config/chroot_local-includes/usr/share/thunderbird/defaults/pref/autoconfig.js
+// Loading the lock file unobfuscated: http://kb.mozillazine.org/Lock_Prefs
 pref("general.config.filename", "thunderbird.cfg");
+pref("general.config.obscure_value", 0);
 
 pref("extensions.update.enabled", false);
 
@@ -36,6 +38,10 @@ pref("mail.chat.enabled", false);
 
 // Hide the "Know your rights" message
 pref("mail.rights.version", 1);
+
+// Disable system addons
+pref("extensions.autoDisableScopes", 3);
+pref("extensions.enabledScopes", 4);
 
 // Only show the tab bar if there's more than one tab to display
 pref("mail.tabs.autoHide", true);
@@ -75,7 +81,8 @@ pref("mail.server.default.enableAutocrypt", false);
 pref("mailnews.p7m_subparts_external", true);
 
 // Sanitize mime headers
-pref("mail.mime.avoid_fingerprinting", true);
+pref("mail.suppress_content_language", true);
+pref("mail.sanitize_date_header", true);
 
 // Make all system-wide dictionaries available
 pref("spellchecker.dictionary_path", "/usr/share/hunspell");
@@ -373,3 +380,14 @@ pref("permissions.default.image", 3);
 
 // https://forums.whonix.org/t/canning-thunderbirds-startpage/13007
 pref("mailnews.start_page.enabled", false);
+
+// Change default encryption policy to "Require encryption by
+// default". Otherwise users must opt-in to encryption for each mail
+// they compose, so they are just a "Send" away from leaking the
+// plaintext if they forget.
+pref("mail.identity.default.encryptionpolicy", 2);
+
+// Don't automatically attach public key when sending signed
+// email. Attaching the key bloats the email (especially keys that
+// have many signatures) but also leaks who sent email when using Schleuder's remailing functionality.
+pref("mail.identity.default.attachPgpKey", false);

@@ -1,3 +1,21 @@
+commit be7da6035302f04d707f27ff2efc77eeb9ce9079
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Oct 3 05:18:45 2022 -0400
+
+    cleanup
+    
+    remove `pref("extensions.torbirdy.gpg_already_torified", true);`
+    
+    since torbirdy no longer exists
+    
+    https://forums.whonix.org/t/torbirdy-replacement/8782/50
+
+commit 275f21bb5f1841bec3e42e55c239e78224959478
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Sep 26 08:45:37 2022 -0400
+
+    bumped changelog version
+
 commit 49ecbc1c2a8d9fc20b5784a8c81c06e685449b86
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Sep 26 07:57:40 2022 -0400

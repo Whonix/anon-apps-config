@@ -1,3 +1,33 @@
+commit d88fce0fd32af0d26c312ecf34b181e1ebd509e5
+Merge: 8a87cc3 a13fce4
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Oct 25 09:11:11 2022 -0400
+
+    Merge remote-tracking branch 'github-whonix/master'
+
+commit a13fce42219eb087b63f3b2364d232a4afcffa9b
+Merge: 8a87cc3 1556b5f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Oct 25 09:09:47 2022 -0400
+
+    Merge pull request #6 from TNTBOMBOM/patch-3
+    
+    Update router.config.anondist
+
+commit 1556b5f152622cb72045e800ee13df03e50ca420
+Author: TNT BOM BOM <TNTBOMBOM@users.noreply.github.com>
+Date:   Mon Oct 24 22:52:17 2022 +0000
+
+    Update router.config.anondist
+    
+    Since I2P going to run over Tor which is a socks5 then reseeding should be over socks5 as well.
+
+commit 8a87cc3ceb76a5d57e7cc74b89bb04407de0afbd
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Oct 3 05:36:12 2022 -0400
+
+    bumped changelog version
+
 commit be7da6035302f04d707f27ff2efc77eeb9ce9079
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Mon Oct 3 05:18:45 2022 -0400

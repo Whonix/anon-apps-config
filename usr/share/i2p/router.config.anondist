@@ -21,5 +21,6 @@ router.sharePercentage=0
 routerconsole.country=
 routerconsole.lang=en
 router.updateDisabled=true
+router.newsRefreshFrequency=-1
 routerconsole.welcomeWizardComplete=true
 time.disabled=true

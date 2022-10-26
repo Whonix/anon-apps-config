@@ -1,3 +1,33 @@
+commit 0dfbaad922c8272953c18fc3e60fde130c8aa04e
+Merge: e944735 f68ad4e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Oct 26 05:32:23 2022 -0400
+
+    Merge remote-tracking branch 'github-whonix/master'
+
+commit f68ad4e7fe927ec9f04deee93f2c90ebe4ed07c3
+Merge: e944735 f8aa6c2
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Oct 26 05:31:38 2022 -0400
+
+    Merge pull request #7 from TNTBOMBOM/patch-4
+    
+    Disable Frequent connection to news letter server
+
+commit f8aa6c26e8c38f3504a5540aad6a920d421f69bb
+Author: TNT BOM BOM <TNTBOMBOM@users.noreply.github.com>
+Date:   Tue Oct 25 20:34:59 2022 +0000
+
+    Disable Frequent connection to news letter server
+    
+    No need to make unnecessary connections to external server for each couple of minutes. Harmful anonymity practice.
+
+commit e94473549f3cd7024fce55059d9398412c4dbc86
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Oct 25 09:15:17 2022 -0400
+
+    bumped changelog version
+
 commit d88fce0fd32af0d26c312ecf34b181e1ebd509e5
 Merge: 8a87cc3 a13fce4
 Author: Patrick Schleizer <adrelanos@whonix.org>

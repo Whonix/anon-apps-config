@@ -2,3 +2,5 @@
 ## See the file COPYING for copying conditions.
 
 /usr/share/i2p/router.config.anondist
+/usr/share/i2p/clients.config.anondist
+/usr/share/i2p/i2ptunnel.config.anondist

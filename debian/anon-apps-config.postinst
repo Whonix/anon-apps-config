@@ -52,8 +52,8 @@ if [ -d /run/systemd/system ]; then
 fi
 
 ## Fix permissions on the I2P configuration directory.
-
-chown -R i2psvc:i2psvc /var/lib/i2p/i2p-config/
+mkdir --parents /var/lib/i2p/i2p-config || true
+chown --recursive i2psvc:i2psvc /var/lib/i2p/i2p-config || true
 
 true "INFO: debhelper beginning here."
 

@@ -1,3 +1,99 @@
+commit 9b6cf93516b281afe30413b1f58b2991153a8cef
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Nov 30 14:28:41 2022 -0500
+
+    port I2P config to systemd tmpfiles.d
+    
+    https://forums.whonix.org/t/i2p-client-inside-whonix-workstation-issues/15890/22
+
+commit aa06cadbb9c56af47d78e145ae9d5916d7b7c2d5
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Nov 30 14:19:56 2022 -0500
+
+    undisplace
+
+commit c822918c932e7baabc087838a7d6a0a1d8581623
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Nov 30 14:19:42 2022 -0500
+
+    minor
+
+commit be64cebdb4c92ce0b2ff6e20357a38fdd05c0c2a
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Nov 30 14:19:12 2022 -0500
+
+    minor
+
+commit 27bbbd3a55d42a104078f6da0620777a0ea4af53
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Nov 30 14:17:54 2022 -0500
+
+    fix
+
+commit 289423c5fe52643c438315652fef8994abd58a05
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Nov 30 14:17:02 2022 -0500
+
+    genmkfile debinstfile
+
+commit d6c8cf9a20d641c7a923e346d71da538d429011e
+Merge: 4f38754 cef2e8e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Nov 30 14:15:23 2022 -0500
+
+    Merge remote-tracking branch 'github-whonix/master'
+
+commit cef2e8e529e4d03bb521062e573a975606d268e0
+Merge: 4f38754 c5a3bc5
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Nov 30 14:12:42 2022 -0500
+
+    Merge pull request #8 from eyedeekay/i2p-auto-configuration
+    
+    I2P auto configuration
+
+commit c5a3bc549edba258f57ed8081199036fcb7534c7
+Author: idk <hankhill19580@gmail.com>
+Date:   Tue Nov 29 20:10:25 2022 +0000
+
+    fix permissions on the I2P configuration directory
+
+commit bd8e5a9a2c3aee6ca5205fca559513fed7bd1ab5
+Author: idk <hankhill19580@gmail.com>
+Date:   Tue Nov 29 19:57:14 2022 +0000
+
+    check in router.config
+
+commit f3f0a235c234954ca0950c6e2401dd4adefe60a5
+Author: idk <hankhill19580@gmail.com>
+Date:   Tue Nov 29 19:56:39 2022 +0000
+
+    remove unnecessary divert for router.config.anondist
+
+commit 8dd15db4da24b9331657f1a0aa82a13ac2af7e60
+Author: idk <hankhill19580@gmail.com>
+Date:   Tue Nov 29 19:54:51 2022 +0000
+
+    move i2p config to /var/lib/i2p/i2p-config
+
+commit 2e16e3a6a1dbb6c358d25283ed058151e14d73fd
+Author: idk <hankhill19580@gmail.com>
+Date:   Tue Nov 29 19:45:19 2022 +0000
+
+    check in config.d directories
+
+commit cc43b42a864970541478a4a4125f4b1f13e26a8b
+Author: idk <hankhill19580@gmail.com>
+Date:   Tue Nov 29 14:38:28 2022 -0500
+
+    first, use displace to create migratable configuration files which contain the required Whonix defaults
+
+commit 4f387542925e96c3e64a15415f6ec6b9a3e45458
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Oct 26 05:32:38 2022 -0400
+
+    bumped changelog version
+
 commit 0dfbaad922c8272953c18fc3e60fde130c8aa04e
 Merge: e944735 f68ad4e
 Author: Patrick Schleizer <adrelanos@whonix.org>

@@ -1,3 +1,21 @@
+commit 1d2a76ad7199ab9fe86bab544950475afe20e477
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Nov 30 14:49:49 2022 -0500
+
+    fix
+
+commit 1def6aa5544f107dd663b75afdf0a63bea64a458
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Nov 30 14:48:40 2022 -0500
+
+    revert /var/lib/i2p/i2p-config folder permissions change for now
+
+commit b9853b57062febd99f685bd9c7ef5e07ccd458a0
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Nov 30 14:38:18 2022 -0500
+
+    bumped changelog version
+
 commit 9b6cf93516b281afe30413b1f58b2991153a8cef
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Nov 30 14:28:41 2022 -0500

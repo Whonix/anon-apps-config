@@ -1,3 +1,9 @@
+anon-apps-config (3:7.3-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@whonix.org>  Wed, 30 Nov 2022 19:50:04 +0000
+
 anon-apps-config (3:7.2-1) unstable; urgency=medium
 
   * New upstream version (local package).

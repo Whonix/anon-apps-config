@@ -1,3 +1,15 @@
+commit f1815a6e4010e02f5cbc4c2fd7c2f6b2f3ced82f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Dec 1 08:57:13 2022 -0500
+
+    i2p-config: no longer use white spaces in file names, use underscores instead
+
+commit 484148d1669b1cfc107ba19639a4301d3bccb773
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Nov 30 14:50:04 2022 -0500
+
+    bumped changelog version
+
 commit 1d2a76ad7199ab9fe86bab544950475afe20e477
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Nov 30 14:49:49 2022 -0500

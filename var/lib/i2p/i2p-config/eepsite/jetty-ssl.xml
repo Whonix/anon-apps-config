@@ -118,7 +118,7 @@
 <!-- Step 7:                                                         -->
 <!-- Test Jetty.                                                     -->
 <!-- If there were no errors, test your Jetty SSL by                 -->
-<!-- going to https://127.0.0.1:7668/ in your browser.               -->
+<!-- going to https://127.0.0.2:7668/ in your browser.               -->
 <!-- You will have to confirm the security exception for             -->
 <!-- the selfsigned certificate.                                     -->
 <!--                                                                 -->
@@ -128,7 +128,7 @@
 <!-- Tell i2ptunnel to route SSL to port 7668 by adding the          -->
 <!-- following custom option on the i2ptunnel edit page              -->
 <!-- for your website:                                               -->
-<!--        targetForPort.443=127.0.0.1:7668                         -->
+<!--        targetForPort.443=127.0.0.2:7668                         -->
 <!-- Also, verify that "Use SSL" near the top is NOT set.            -->
 <!-- That would be SSL-over-SSL, which won't work.                   -->
 <!--                                                                 -->
@@ -277,7 +277,7 @@
               </Item>
             </Array>
         </Arg>
-        <Set name="host">127.0.0.1</Set>
+        <Set name="host">127.0.0.2</Set>
         <Set name="port">7668</Set>
         <Set name="idleTimeout">600000</Set>
       </New>

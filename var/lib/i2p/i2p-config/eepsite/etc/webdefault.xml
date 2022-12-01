@@ -36,7 +36,7 @@
   <!-- UNCOMMENT TO ACTIVATE
   <context-param>
     <param-name>org.eclipse.jetty.servlet.SessionDomain</param-name>
-    <param-value>127.0.0.1</param-value>
+    <param-value>127.0.0.2</param-value>
   </context-param>
 
   <context-param>

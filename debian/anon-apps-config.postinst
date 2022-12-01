@@ -51,10 +51,6 @@ if [ -d /run/systemd/system ]; then
         systemctl --system daemon-reload >/dev/null || true
 fi
 
-## Fix permissions on the I2P configuration directory.
-
-chown -R i2psvc:i2psvc /var/lib/i2p/i2p-config/
-
 true "INFO: debhelper beginning here."
 
 #DEBHELPER#

@@ -1,3 +1,15 @@
+commit 5a6b5d04e0fb490d0b27ca02f56a10c62b47199e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Dec 3 11:31:03 2022 -0500
+
+    lintian
+
+commit f48d44d624fdfada798dc55ca110332411d79ccf
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Dec 3 11:20:47 2022 -0500
+
+    bumped changelog version
+
 commit 77dbdcf4c0d3e847529312ac93aff19265e362fa
 Merge: ebcf821 2beb8ce
 Author: Patrick Schleizer <adrelanos@whonix.org>

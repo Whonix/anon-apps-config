@@ -1,3 +1,32 @@
+commit 77dbdcf4c0d3e847529312ac93aff19265e362fa
+Merge: ebcf821 2beb8ce
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Dec 3 11:08:44 2022 -0500
+
+    Merge remote-tracking branch 'github-whonix/master'
+
+commit 2beb8cef309c926604649698b14b014c4bfe8c3b
+Merge: ebcf821 64aa02e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Dec 3 11:08:01 2022 -0500
+
+    Merge pull request #10 from eyedeekay/hosts-txt-only
+    
+    PR 1/2: add a hosts.txt file
+    https://geti2p.net/hosts.txt
+
+commit ebcf8219f3ed097030815127b2e6ba75c246f281
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Dec 1 13:05:51 2022 -0500
+
+    bumped changelog version
+
+commit 64aa02e51e796577556206b2f441c855ce916a96
+Author: idk <hankhill19580@gmail.com>
+Date:   Thu Dec 1 17:06:29 2022 +0000
+
+    add a hosts.txt file
+
 commit f1815a6e4010e02f5cbc4c2fd7c2f6b2f3ced82f
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Dec 1 08:57:13 2022 -0500

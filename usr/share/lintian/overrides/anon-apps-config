@@ -7,3 +7,7 @@ anon-apps-config: package-contains-file-in-etc-skel etc/skel/*
 ## config-package-dev issue
 ## http://debathena.mit.edu/trac/ticket/936
 #anon-apps-config: package-contains-empty-directory usr/share/anon-apps-config
+
+## https://forums.whonix.org/t/i2p-client-inside-whonix-workstation-issues/15890/15
+## Not a documentation file.
+anon-apps-config: package-contains-documentation-outside-usr-share-doc var/lib/i2p/i2p-config/hosts.txt

@@ -1,3 +1,56 @@
+commit 5a6b5d04e0fb490d0b27ca02f56a10c62b47199e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Dec 3 11:31:03 2022 -0500
+
+    lintian
+
+commit f48d44d624fdfada798dc55ca110332411d79ccf
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Dec 3 11:20:47 2022 -0500
+
+    bumped changelog version
+
+commit 77dbdcf4c0d3e847529312ac93aff19265e362fa
+Merge: ebcf821 2beb8ce
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Dec 3 11:08:44 2022 -0500
+
+    Merge remote-tracking branch 'github-whonix/master'
+
+commit 2beb8cef309c926604649698b14b014c4bfe8c3b
+Merge: ebcf821 64aa02e
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Dec 3 11:08:01 2022 -0500
+
+    Merge pull request #10 from eyedeekay/hosts-txt-only
+    
+    PR 1/2: add a hosts.txt file
+    https://geti2p.net/hosts.txt
+
+commit ebcf8219f3ed097030815127b2e6ba75c246f281
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Dec 1 13:05:51 2022 -0500
+
+    bumped changelog version
+
+commit 64aa02e51e796577556206b2f441c855ce916a96
+Author: idk <hankhill19580@gmail.com>
+Date:   Thu Dec 1 17:06:29 2022 +0000
+
+    add a hosts.txt file
+
+commit f1815a6e4010e02f5cbc4c2fd7c2f6b2f3ced82f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Thu Dec 1 08:57:13 2022 -0500
+
+    i2p-config: no longer use white spaces in file names, use underscores instead
+
+commit 484148d1669b1cfc107ba19639a4301d3bccb773
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Nov 30 14:50:04 2022 -0500
+
+    bumped changelog version
+
 commit 1d2a76ad7199ab9fe86bab544950475afe20e477
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Nov 30 14:49:49 2022 -0500

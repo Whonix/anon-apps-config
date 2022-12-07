@@ -1,3 +1,38 @@
+commit fb53b0e53fb473ca9e5df8385db1a361319f1b9f
+Merge: f879561 4b1ba39
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Dec 7 07:51:38 2022 -0500
+
+    Merge remote-tracking branch 'github-whonix/master'
+
+commit 4b1ba391312710c04c3105aad94c581c7de7cbf0
+Merge: f879561 5492e70
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Wed Dec 7 07:44:51 2022 -0500
+
+    Merge pull request #12 from eyedeekay/eepsite-docroot-disable-redux
+    
+    Eepsite docroot disable redux
+
+commit 5492e70c3a1f9c4c5c63064b72664d4ade3013e3
+Merge: baa0b6b f879561
+Author: idk <hankhill19580@gmail.com>
+Date:   Mon Dec 5 16:33:23 2022 +0000
+
+    Merge branch 'Whonix:master' into master
+
+commit baa0b6b850dca52300b34fac6263b82ad9236317
+Author: idk <hankhill19580@gmail.com>
+Date:   Mon Dec 5 16:31:07 2022 +0000
+
+    re-create #11 without the eepsite/docroot history, disable eepsite by default
+
+commit f879561533601ad59ca74233b346bc255414653f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Dec 3 11:31:53 2022 -0500
+
+    bumped changelog version
+
 commit 5a6b5d04e0fb490d0b27ca02f56a10c62b47199e
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Dec 3 11:31:03 2022 -0500

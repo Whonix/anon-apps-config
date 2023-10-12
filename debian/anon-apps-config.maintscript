@@ -2,3 +2,4 @@
 ## See the file COPYING for copying conditions.
 
 rm_conffile /etc/apt/apt.conf.d/20noperiodic
+rm_conffile /etc/X11/Xsession.d/50anon-apps-config

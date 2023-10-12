@@ -14,9 +14,13 @@
 if [ -z "$XDG_CONFIG_DIRS" ]; then
    XDG_CONFIG_DIRS=/etc/xdg
 fi
-export XDG_CONFIG_DIRS=/usr/share/anon-apps-config/:$XDG_CONFIG_DIRS
+if ! echo "$XDG_CONFIG_DIRS" | grep --quiet /usr/share/anon-apps-config/ ; then
+   export XDG_CONFIG_DIRS=/usr/share/anon-apps-config/:$XDG_CONFIG_DIRS
+fi
 
 if [ -z "$XDG_DATA_DIRS" ]; then
    XDG_DATA_DIRS=/usr/local/share/:/usr/share/
 fi
-export XDG_DATA_DIRS=/usr/share/anon-apps-config/share/:$XDG_DATA_DIRS
+if ! echo "$XDG_DATA_DIRS" | grep --quiet /usr/share/anon-apps-config/share/ ; then
+   export XDG_DATA_DIRS=/usr/share/anon-apps-config/share/:$XDG_DATA_DIRS
+fi

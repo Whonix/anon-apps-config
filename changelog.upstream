@@ -1,3 +1,27 @@
+commit 016a93966b4602226ca18d5b1793cbaa6d75b483
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 22 07:48:07 2024 -0500
+
+    add debian install file (generated using "genmkfile debinstfile")
+
+commit 766d8738aceceff71dccc4e2a6297da5e1a2dcf6
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 22 07:08:14 2024 -0500
+
+    usrmerge
+
+commit 25f165170703218b888e5a6f881b6960e8e3c64f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Jan 20 09:40:22 2024 -0500
+
+    etc/permission-hardening.d/30_ping.conf -> etc/permission-hardener.d/30_ping.conf
+
+commit a7e07c5b9d8f1fdc534c2b7ce71d7f9be5a1f579
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Nov 11 20:27:51 2023 +0000
+
+    bumped changelog version
+
 commit a617fdaf214e9d122d8c8a47fdfbdf550858191e
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Nov 11 14:43:10 2023 -0500

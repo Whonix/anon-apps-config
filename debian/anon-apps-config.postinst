@@ -38,7 +38,7 @@ timezone_utc() {
 
    TZBase=$(LC_ALL=C TZ=UTC0 date)
    UTdate=$(LC_ALL=C TZ=UTC0 date -d "$TZBase")
-   TZdate=$(unset TZ ; LANG=C date -d "$TZBase")
+   TZdate=$(unset TZ ; LC_ALL=C LANG=C date -d "$TZBase")
    echo "Local time is now:      $TZdate."
    echo "Universal Time is now:  $UTdate."
    echo

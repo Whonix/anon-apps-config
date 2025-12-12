@@ -11,8 +11,4 @@
 ## Issue: https://phabricator.whonix.org/T736
 qt-privacy-ask=0
 
-## VLC output is x11 to enable VM compatibility out-of-the-box
-## Issue: https://phabricator.whonix.org/T798
-vout=xcb_x11
-
 #### end

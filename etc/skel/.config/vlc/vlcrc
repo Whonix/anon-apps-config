@@ -8,7 +8,7 @@
 ## VLC configuration file
 
 ## Do no ask for network policy at start (boolean)
-## Issue: https://phabricator.whonix.org/T736
+## Issue: https://forums.whonix.org/t/disable-vlc-metadata-collection-by-default/18674
 qt-privacy-ask=0
 
 #### end

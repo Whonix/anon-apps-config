@@ -85,6 +85,7 @@ Description: anonymity, privacy and security settings pre-configuration
  .
  Ships a configuration file /etc/skel/.config/vlc/vlcrc to configure VLC to not
  ask for network policy at start.
+ https://forums.whonix.org/t/disable-vlc-metadata-collection-by-default/18674
  .
  Disabled gajim update manager by default for better security since it does not
  verify software signatures by hiding file

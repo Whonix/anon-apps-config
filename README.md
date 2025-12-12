@@ -62,8 +62,7 @@ Ships a configuration file /etc/apt/apt.conf.d/90longer-timeouts to configure
 apt-get.
 
 Ships a configuration file /etc/skel/.config/vlc/vlcrc to configure VLC to not
-ask for network policy at start and sets vout=xcb_x11 to enable VM
-compatibility out-of-the-box.
+ask for network policy at start.
 
 Disabled gajim update manager by default for better security since it does not
 verify software signatures by hiding file

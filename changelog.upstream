@@ -1,3 +1,31 @@
+commit 2ad14dd8723c2837f2c17bfd1befc394cf070caf
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Dec 12 08:14:47 2025 -0500
+
+    readme
+
+commit ca4c28918cf0d20451b9d088084cb07b90673b43
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Dec 12 08:03:09 2025 -0500
+
+    link
+
+commit c393d1330a5691ecce5cb41510215378bd899e7c
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Dec 12 07:56:27 2025 -0500
+
+    no longer apply VLC configuration `vout=xcb_x11`
+    
+    revert https://forums.whonix.org/t/vlc-x11-decoding-by-default/18636
+    
+    due to https://forums.whonix.org/t/port-to-wayland/17380
+
+commit 3771c8bebf08247e7073139a44efb2f6fb75c19f
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Tue Sep 2 15:32:16 2025 +0000
+
+    bumped changelog version
+
 commit 2a2e8bc220384c3ad28329892afdb20128c69fdb
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Tue Aug 26 09:27:25 2025 +0000

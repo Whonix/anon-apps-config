@@ -1,3 +1,22 @@
+commit c05cb8654238809694ebf6c4b0b18d32d379103e
+Merge: 0c047c5 55e5f0b
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Dec 26 14:01:41 2025 -0500
+
+    Merge remote-tracking branch 'ArrayBolt3/arraybolt3/trixie'
+
+commit 55e5f0b1bb98fed79fc3c427d7fcd5300c1b47b0
+Author: Aaron Rainbolt <arraybolt3@ubuntu.com>
+Date:   Thu Dec 25 21:36:54 2025 -0600
+
+    Disable dynamic resolution by default on Whonix
+
+commit 0c047c597f692d83a8c3c58557ed575e91966320
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Dec 12 13:20:01 2025 +0000
+
+    bumped changelog version
+
 commit 2ad14dd8723c2837f2c17bfd1befc394cf070caf
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Fri Dec 12 08:14:47 2025 -0500

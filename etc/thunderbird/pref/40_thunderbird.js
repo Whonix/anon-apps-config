@@ -10,7 +10,7 @@
 // Related Topic: https://forums.whonix.org/t/torbirdy-deprecated-replacement-required/8782/6
 
 // Original: https://gitlab.tails.boum.org/tails/tails/-/blob/stable/config/chroot_local-includes/usr/share/thunderbird/defaults/pref/autoconfig.js
-// Loading the lock file unobfuscated: http://kb.mozillazine.org/Lock_Prefs
+// Loading the lock file unobfuscated: https://kb.mozillazine.org/Locking_preferences
 pref("general.config.filename", "thunderbird.cfg");
 pref("general.config.obscure_value", 0);
 
@@ -108,7 +108,7 @@ pref("network.proxy.socks_remote_dns", true);
 // Disable DNS prefetching.
 pref("network.dns.disablePrefetch", true);
 
-// https://lists.torproject.org/pipermail/tor-talk/2011-September/021398.html
+// https://archive.torproject.org/websites/lists.torproject.org/pipermail/tor-talk/2011-September/021398.html
 // "Towards a Tor-safe Mozilla Thunderbird"
 // These options enable a warning that tagnaq suggests.
 
@@ -120,8 +120,8 @@ pref("network.protocol-handler.warn-external.file", true);
 pref("network.protocol-handler.warn-external-default", true);
 
 // Likely privacy violations
-// https://blog.torproject.org/blog/experimental-defense-website-traffic-fingerprinting
-// https://bugs.torproject.org/3914
+// https://blog.torproject.org/experimental-defense-website-traffic-fingerprinting/
+// https://gitlab.torproject.org/legacy/trac/-/issues/3914
 pref("network.http.pipelining", true);
 pref("network.http.pipelining.aggressive", true);
 pref("network.http.pipelining.maxrequests", 12);
@@ -141,7 +141,7 @@ pref("network.http.spdy.enabled", false);
 pref("network.http.pipelining.ssl", true);
 pref("network.http.proxy.pipelining", true);
 pref("network.http.sendRefererHeader", 2);
-// https://bugs.torproject.org/16673
+// https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/16673
 pref("network.http.altsvc.enabled", false);
 pref("network.http.altsvc.oe", false);
 
@@ -149,11 +149,11 @@ pref("network.http.altsvc.oe", false);
 // Websockets have no use in Thunderbird over Tor; some versions of the
 // underlying Mozilla networking code allowed websockets to bypass the proxy
 // settings - this is deadly to Tor users:
-// https://blog.torproject.org/blog/firefox-security-bug-proxy-bypass-current-tbbs
+// https://blog.torproject.org/firefox-security-bug-proxy-bypass-current-tbbs/
 // We don't want user's of Thunderbird to even come close to such a bypass
 // issue and so we have disabled websockets out of an abundance of caution.
 // XXX: Couldn't find this setting in the Thunderbird source code or on
-//      http://kb.mozillazine.org
+//      https://mozillazine.org/
 //      It seems like it has been removed years ago:
 //      https://bugzilla.mozilla.org/show_bug.cgi?id=1091016
 //      Possible workaround:
@@ -161,7 +161,7 @@ pref("network.http.altsvc.oe", false);
 pref("network.websocket.enabled", false);
 // Cookies are allowed, but not third-party cookies. For Gmail and Twitter.
 pref("network.cookie.cookieBehavior", 1);
-// http://kb.mozillazine.org/Network.cookie.lifetimePolicy
+// https://kb.mozillazine.org/Network.cookie.lifetimePolicy
 // 2: cookie expires at the end of the session.
 pref("network.cookie.lifetimePolicy", 2);
 // Disable link prefetching.
@@ -177,12 +177,12 @@ Security
 pref("security.OCSP.enabled", 1);
 pref("security.OCSP.GET.enabled", false);
 // XXX: Couldn't find this setting in the Thunderbird source code or on
-//      http://kb.mozillazine.org
+//      https://mozillazine.org
 pref("security.OCSP.require", false);
 // Disable TLS Session Ticket.
-// See https://trac.torproject.org/projects/tor/ticket/4099
+// See https://gitlab.torproject.org/legacy/trac/-/issues/4099
 // XXX: Couldn't find this setting in the Thunderbird source code or on
-//      http://kb.mozillazine.org
+//      https://mozillazine.org
 //      It seems like it has been removed:
 //      https://bugzilla.mozilla.org/show_bug.cgi
 //      "security.ssl.disable_session_identifiers" seems to be a replacement:
@@ -192,8 +192,8 @@ pref("security.enable_tls_session_tickets", false);
 // We do not want to enable a known weak protocol; users should use only use TLS
 pref("security.enable_ssl3", false);
 // Thunderbird 23.0 uses the following preference.
-// https://bugs.torproject.org/11253
-// March 2017: See https://bugs.torproject.org/20751
+// https://gitlab.torproject.org/legacy/trac/-/issues/11253
+// March 2017: See https://gitlab.torproject.org/legacy/trac/-/issues/20751
 pref("security.tls.version.min", 3);
 // Display a dialog warning the user when entering an insecure site from a secure one.
 pref("security.warn_entering_weak", true);
@@ -207,7 +207,7 @@ pref("security.ssl.require_safe_negotiation", true);
 // Warn when connecting to a server that uses an old protocol version.
 pref("security.ssl.treat_unsafe_negotiation_as_broken", true);
 // Disable 'extension blocklist' which might leak the OS information.
-// See https://trac.torproject.org/projects/tor/ticket/6734
+// See https://gitlab.torproject.org/legacy/trac/-/issues/6734
 pref("extensions.blocklist.enabled", false);
 // Strict: certificate pinning is always enforced.
 pref("security.cert_pinning.enforcement_level", 2);
@@ -231,7 +231,7 @@ pref("mail.shell.checkDefaultMail", false);
 // Disable inline attachments.
 pref("mail.inline_attachments", false);
 // Disable IMAP IDLE
-// See https://trac.torproject.org/projects/tor/ticket/6337
+// See https://gitlab.torproject.org/legacy/trac/-/issues/6337
 // XXX: We might want to enable this useful feature in Tails
 pref("mail.server.default.use_idle", false);
 // Thunderbird's autoconfig wizard is designed to enable an initial
@@ -255,18 +255,18 @@ pref("browser.cache.disk.enable", false);
 pref("browser.cache.memory.enable", false);
 pref("browser.cache.offline.enable", false);
 pref("browser.formfill.enable", false);
-// https://bugs.torproject.org/22944
+// https://gitlab.torproject.org/legacy/trac/-/issues/22944
 pref("browser.chrome.site_icons", false);
 pref("browser.chrome.favicons", false);
 pref("signon.autofillForms", false);
 
-// https://bugs.torproject.org/10367
+// https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/10367
 pref("datareporting.healthreport.service.enabled", false);
 pref("datareporting.healthreport.uploadEnabled", false);
 pref("datareporting.policy.dataSubmissionEnabled", false);
 pref("datareporting.healthreport.about.reportUrl", "data:text/plain,");
 
-// https://bugs.torproject.org/16254
+// https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/16254
 pref("browser.search.countryCode", "US");
 pref("browser.search.region", "US");
 pref("browser.search.geoip.url", "");
@@ -277,26 +277,26 @@ pref("browser.search.geoip.url", "");
 // Disable client-side session and persistent storage.
 // XXX: Tor Browser 9.0 has this setting set to "true"
 pref("dom.storage.enabled", false);
-// https://bugs.torproject.org/15758
+// https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/15758
 pref("device.sensors.enabled", false);
-// https://bugs.torproject.org/5293
+// https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/5293
 // XXX: Tor Browser 9.0 has this setting set to "true"
 pref("dom.battery.enabled", false);
-// https://bugs.torproject.org/6204
+// https://gitlab.torproject.org/legacy/trac/-/issues/6204
 pref("dom.enable_performance", false);
-// https://bugs.torproject.org/13023
+// https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/13023
 pref("dom.gamepad.enabled", false);
-// https://bugs.torproject.org/8382
+// https://gitlab.torproject.org/legacy/trac/-/issues/8382
 // XXX: Tor Browser 9.0 has this setting set to "true"
 pref("dom.indexedDB.enabled", false);
-// https://bugs.torproject.org/13024
+// https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/13024
 pref("dom.enable_resource_timing", false);
-// https://bugs.torproject.org/16336
+// https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/16336
 pref("dom.enable_user_timing", false);
-// https://bugs.torproject.org/17046
+// https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/17046
 pref("dom.event.highrestimestamp.enabled", true);
 
-// https://bugs.torproject.org/11817
+// https://gitlab.torproject.org/legacy/trac/-/issues/11817
 pref("extensions.getAddons.cache.enabled", false);
 
 /*

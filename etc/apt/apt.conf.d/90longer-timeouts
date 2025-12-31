@@ -14,7 +14,7 @@ Acquire::ftp::Timeout "180";
 
 ## Retries for source and archive, not the various
 ## index files (Packages, Release and friends)
-## - http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=119544
+## - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=119544
 ## - https://bugs.launchpad.net/ubuntu/+source/apt/+bug/310262
 Acquire::Retries "3";
 

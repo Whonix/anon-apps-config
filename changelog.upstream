@@ -1,3 +1,114 @@
+commit 3241fe7df7660d8f7f54cd6124b4f5c621646507
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 5 05:26:44 2026 -0500
+
+    fix
+
+commit 3caef8f118a40b9eb92a48bf176dbcf7d2809984
+Merge: cfe4973 3d707af
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 5 03:42:20 2026 -0500
+
+    Merge remote-tracking branch 'github-whonix/master'
+
+commit 3d707afe9d59f5111297cffb5985b57fc937cebf
+Merge: 974a028 9471ee0
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 5 03:34:52 2026 -0500
+
+    Merge pull request #19 from Nurmagoz/patch-10
+    
+    Update 40_anon-apps-config.conf Links
+
+commit 974a02814ce2a222b999c1548443f3c75058b7e3
+Merge: 745ebd5 dc0c2ca
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 5 03:24:42 2026 -0500
+
+    Merge pull request #18 from Nurmagoz/patch-9
+    
+    Update ksmserverrc link
+
+commit 745ebd5c8d84808a4b52ff131335c803654a477e
+Merge: e8b09d0 77a8b81
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 5 03:24:13 2026 -0500
+
+    Merge pull request #17 from Nurmagoz/patch-8
+    
+    Update 90longer-timeouts link
+
+commit e8b09d087295454858d7b391084384407df5b25a
+Merge: 376e190 24de1c5
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 5 03:23:52 2026 -0500
+
+    Merge pull request #16 from Nurmagoz/patch-7
+    
+    Update hexchat.conf Links
+
+commit 376e190d6db93225199c25d05ecccfa5a0dbd725
+Merge: be525bf 2973cf6
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 5 03:20:41 2026 -0500
+
+    Merge pull request #15 from Nurmagoz/patch-6
+    
+    Link fixing
+
+commit be525bf3ee21890096f7d6f2d13498724dc19ae6
+Merge: cfe4973 2624b6d
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Mon Jan 5 03:19:44 2026 -0500
+
+    Merge pull request #14 from Nurmagoz/patch-5
+    
+    Link fixing
+
+commit 9471ee0c73dc52bb5c6446f132ae766ada2eefcf
+Author: Nurmagoz <11895339+Nurmagoz@users.noreply.github.com>
+Date:   Wed Dec 31 19:43:57 2025 +0000
+
+    Update 40_anon-apps-config.conf Links
+
+commit dc0c2ca2e75cb77bc4664ea3d80a0ed92dac19a5
+Author: Nurmagoz <11895339+Nurmagoz@users.noreply.github.com>
+Date:   Wed Dec 31 19:39:07 2025 +0000
+
+    Update ksmserverrc link
+
+commit 77a8b816ae6c2fa02ca341f8a1113ddf93be89dd
+Author: Nurmagoz <11895339+Nurmagoz@users.noreply.github.com>
+Date:   Wed Dec 31 19:37:38 2025 +0000
+
+    Update 90longer-timeouts link
+    
+    added s to http
+
+commit 24de1c5d38a2cd6d91d2614f838c535b712953ae
+Author: Nurmagoz <11895339+Nurmagoz@users.noreply.github.com>
+Date:   Wed Dec 31 19:33:26 2025 +0000
+
+    Update hexchat.conf Links
+
+commit 2973cf61f93eee103868cddcff9daf377c70ac45
+Author: Nurmagoz <11895339+Nurmagoz@users.noreply.github.com>
+Date:   Mon Dec 29 17:50:19 2025 +0000
+
+    Link fixing
+
+commit 2624b6d980b19c657bca4c14f5899fdd1b473b51
+Author: Nurmagoz <11895339+Nurmagoz@users.noreply.github.com>
+Date:   Mon Dec 29 17:29:05 2025 +0000
+
+    Link fixing
+
+commit cfe4973251b45c76e88aad4649016abe5d5d6108
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Fri Dec 26 19:05:20 2025 +0000
+
+    bumped changelog version
+
 commit c05cb8654238809694ebf6c4b0b18d32d379103e
 Merge: 0c047c5 55e5f0b
 Author: Patrick Schleizer <adrelanos@whonix.org>

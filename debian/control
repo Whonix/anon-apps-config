@@ -41,7 +41,7 @@ Description: anonymity, privacy and security settings pre-configuration
  .
  Deactivates maximize windows when moved to the top.
  In context of anonymity it might be better not to maximize the browser window
- (https://trac.torproject.org/projects/tor/ticket/7255).
+ (https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/7255).
  To prevent users from accidentally maximizing their browser window, it is
  better when KDE's feature to maximize windows when moved to the top is
  disabled.
@@ -97,7 +97,7 @@ Description: anonymity, privacy and security settings pre-configuration
  Disables systemd-resolved fallback DNS (which by default is set to Google).
  .
  Removes capabilities from `/bin/ping` if
- [security-misc](https://github.com/Whonix/security-misc) is
+ [security-misc](https://github.com/Kicksecure/security-misc) is
  installed as ping doesn't work with Tor anyway and its capabilities are just
  unneeded attack surface.
  .

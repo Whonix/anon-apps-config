@@ -19,7 +19,7 @@ Double click instead of single click in KDE.
 
 Deactivates maximize windows when moved to the top.
 In context of anonymity it might be better not to maximize the browser window
-(https://trac.torproject.org/projects/tor/ticket/7255).
+(https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/7255).
 To prevent users from accidentally maximizing their browser window, it is
 better when KDE's feature to maximize windows when moved to the top is
 disabled.
@@ -63,6 +63,7 @@ apt-get.
 
 Ships a configuration file /etc/skel/.config/vlc/vlcrc to configure VLC to not
 ask for network policy at start.
+https://forums.whonix.org/t/disable-vlc-metadata-collection-by-default/18674
 
 Disabled gajim update manager by default for better security since it does not
 verify software signatures by hiding file
@@ -74,7 +75,7 @@ Disables systemd-resolved during boot unless file /etc/dns-enable exists.
 Disables systemd-resolved fallback DNS (which by default is set to Google).
 
 Removes capabilities from `/bin/ping` if
-[security-misc](https://github.com/Whonix/security-misc) is
+[security-misc](https://github.com/Kicksecure/security-misc) is
 installed as ping doesn't work with Tor anyway and its capabilities are just
 unneeded attack surface.
 

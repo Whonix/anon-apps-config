@@ -3,3 +3,5 @@
 
 ## moved to etc/permission-hardener.d
 rm_conffile /etc/permission-hardening.d/30_ping.conf
+
+rm_conffile /etc/wlr_resize_watcher.d/40_whonix.conf
